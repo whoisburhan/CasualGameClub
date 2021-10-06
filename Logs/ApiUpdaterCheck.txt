@@ -1,0 +1,90 @@
+[api-updater (non-obsolete-error-filter)] 10/4/2021 5:48:16 AM : Starting C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 87.6013ms
+moved types parse time: 33ms
+candidates parse time : 0ms
+C# parse time         : 138ms
+candidates check time : 6ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 10/4/2021 6:50:02 AM : Starting C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 43.5003ms
+moved types parse time: 32ms
+candidates parse time : 0ms
+C# parse time         : 131ms
+candidates check time : 52ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 10/4/2021 6:50:03 AM : Starting C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 42.9094ms
+moved types parse time: 31ms
+candidates parse time : 0ms
+C# parse time         : 125ms
+candidates check time : 50ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 10/4/2021 6:55:53 AM : Starting C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 48.9129ms
+moved types parse time: 32ms
+candidates parse time : 0ms
+C# parse time         : 132ms
+candidates check time : 38ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 10/4/2021 8:13:44 AM : Starting C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 60.7133ms
+moved types parse time: 32ms
+candidates parse time : 0ms
+C# parse time         : 136ms
+candidates check time : 9ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 10/4/2021 8:14:01 AM : Starting C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 45.0087ms
+moved types parse time: 32ms
+candidates parse time : 0ms
+C# parse time         : 99ms
+candidates check time : 8ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 10/4/2021 8:14:40 AM : Starting C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 46.8328ms
+moved types parse time: 31ms
+candidates parse time : 0ms
+C# parse time         : 96ms
+candidates check time : 7ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 10/4/2021 8:15:07 AM : Starting C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 31.2444ms
+moved types parse time: 31ms
+candidates parse time : 0ms
+C# parse time         : 99ms
+candidates check time : 5ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 10/4/2021 8:15:14 AM : Starting C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 46.8202ms
+moved types parse time: 32ms
+candidates parse time : 0ms
+C# parse time         : 101ms
+candidates check time : 5ms
+console write time    : 0ms
+
