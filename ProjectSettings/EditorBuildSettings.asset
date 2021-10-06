@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/MainMenu/Scenes/Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/AA/Games/AA/Scenes/AA.unity
+    path: Assets/SubGames/AA/Games/AA/Scenes/AA.unity
     guid: c412f9a61c3fc0743b7094b541d971fd
   - enabled: 1
-    path: Assets/TilesMatch/Scenes/TilesMatch.unity
+    path: Assets/SubGames/TilesMatch/Scenes/TilesMatch.unity
     guid: cd2029058cedf574c90a2654922a5dd5
+  - enabled: 1
+    path: Assets/SubGames/MergeBall/StartMenu/StartMenu/StartMenu.unity
+    guid: 7b95b7187c2a64146b4f13f988e61ec3
+  - enabled: 1
+    path: Assets/SubGames/MergeBall/Scenes/MergeBall.unity
+    guid: ac54e21d5fd9d424cb44f635ac6a3dab
   m_configObjects: {}
