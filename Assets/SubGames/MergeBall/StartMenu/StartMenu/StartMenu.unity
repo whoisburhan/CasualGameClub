@@ -500,7 +500,7 @@ MonoBehaviour:
   - {fileID: 433716675}
   backgroundClip: []
   sounds:
-  - {fileID: 8300000, guid: 3bf7cc8254c1e294b9d89d99278b6241, type: 3}
+  - {fileID: 8300000, guid: e4d40de1f07468e4ba8b6b2f60e77dae, type: 3}
   - {fileID: 8300000, guid: 56258a08c4d8e004ab0aee4aa8d368a3, type: 3}
   - {fileID: 8300000, guid: b4f5a314e06cd2541a43f3a4abfca643, type: 3}
 --- !u!4 &433716678

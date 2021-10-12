@@ -1,5 +1,4 @@
-﻿#if UNITY_EDITOR
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -123,5 +122,3 @@ public struct sceneData {
     public string name;
     public string relativePath;
 }
-
-#endif

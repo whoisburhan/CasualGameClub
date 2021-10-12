@@ -122,15 +122,15 @@ namespace GS.TilesMatch
                 case 1:
                     StartCoroutine(Delay(() => { StarShow(0); }, 0.25f));
                     StartCoroutine(Delay(()=> { 
-                        if (AudioManager.Instance != null) AudioManager.Instance.AudioChangeFunc(0, 4);
+                        if (GS.GameKit.AudioManager.Instance != null) GS.GameKit.AudioManager.Instance.AudioChangeFunc(GameKit.SoundName.LEVEL_COMPLETE,0);
                         LevelCompleteParticleEffectCanvas.SetActive(true);
                     },0.5f));
                     break;
                 case 2:
                     StartCoroutine(Delay(() => { StarShow(0); }, 0.25f));
                     StartCoroutine(Delay(() => { StarShow(1); }, 0.5f));
-                    StartCoroutine(Delay(() => { 
-                        if (AudioManager.Instance != null) AudioManager.Instance.AudioChangeFunc(0, 4);
+                    StartCoroutine(Delay(() => {
+                        if (GS.GameKit.AudioManager.Instance != null) GS.GameKit.AudioManager.Instance.AudioChangeFunc(GameKit.SoundName.LEVEL_COMPLETE, 0);
                         LevelCompleteParticleEffectCanvas.SetActive(true);
                     }, 0.75f));
                     break;
@@ -138,8 +138,8 @@ namespace GS.TilesMatch
                     StartCoroutine(Delay(() => { StarShow(0); }, 0.25f));
                     StartCoroutine(Delay(() => { StarShow(1); }, 0.5f));
                     StartCoroutine(Delay(() => { StarShow(2); }, 0.75f));
-                    StartCoroutine(Delay(() => { 
-                        if (AudioManager.Instance != null) AudioManager.Instance.AudioChangeFunc(0, 4);
+                    StartCoroutine(Delay(() => {
+                        if (GS.GameKit.AudioManager.Instance != null) GS.GameKit.AudioManager.Instance.AudioChangeFunc(GameKit.SoundName.LEVEL_COMPLETE, 0);
                         LevelCompleteParticleEffectCanvas.SetActive(true);
                     }, 1.0f));
                     break;
@@ -151,7 +151,7 @@ namespace GS.TilesMatch
             if(x >= 0 && x < starImages.Length)
             {
                 starImages[x].sprite = starSprites[1];
-                if(AudioManager.Instance != null)   AudioManager.Instance.AudioChangeFunc(0, 0);
+                if(GS.GameKit.AudioManager.Instance != null)   GS.GameKit.AudioManager.Instance.AudioChangeFunc(GameKit.SoundName.CLICK_5,0);
             }
         }
 

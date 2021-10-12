@@ -3,7 +3,7 @@ using UnityEngine;
 using GoogleMobileAds.Api;
 using GoogleMobileAds.Common;
 using System;
-using GS.AA;
+//using GS.AA;
 using System.Collections;
 
 public class AdmobAds : MonoBehaviour
@@ -26,6 +26,8 @@ public class AdmobAds : MonoBehaviour
 
     public static AdmobAds instance;
 
+    public Action OnReward;
+
     private void Awake()
     {
         if (instance != null && instance != this)
@@ -44,14 +46,15 @@ public class AdmobAds : MonoBehaviour
     {
        // MobileAds.Initialize(GameID);
         MobileAds.Initialize(initStatus => { });
-
-        rewardedAd = new RewardedAd(rewarded_Ad_ID);
+      
     }
 
 #region rewarded Video Ads
 
     public void loadRewardVideo()
     {
+        rewardedAd = new RewardedAd(rewarded_Ad_ID);
+
         AdRequest request = new AdRequest.Builder().Build();
         rewardedAd.LoadAd(request);
 
@@ -240,7 +243,9 @@ public class AdmobAds : MonoBehaviour
     {
         yield return new WaitForEndOfFrame();
         Time.timeScale = 1f;
-        GameManager.Instance.SkipLevel();
+        //GameManager.Instance.SkipLevel();
+        OnReward?.Invoke();
+
         AdmobAds.instance.loadRewardVideo();
     }
 

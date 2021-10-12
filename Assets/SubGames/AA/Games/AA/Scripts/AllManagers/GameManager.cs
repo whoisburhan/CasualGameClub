@@ -24,7 +24,6 @@ namespace GS.AA
 
         public int RequiredBall = 5;
         private int totalBall = 0;
-        private int currentBallHitSoundIndex = 0;
         private bool isLevelCompletedOrGameOver = false;
 
         //Those variable are used when levels are randomly picked
@@ -47,12 +46,6 @@ namespace GS.AA
         [Header("Ball Prefab")]
         public GameObject BallPrefab;
 
-        [Header("Audio Clips")]
-        [SerializeField] private AudioClip gameOverClip;
-        [SerializeField] private AudioClip victoryClip;
-        [SerializeField] public AudioClip BallFireClip;
-        [SerializeField] private AudioClip[] ballHitSounds;
-
         [Header("All Circles")]
         [SerializeField] private GameObject[] circles = new GameObject[3];
 
@@ -71,6 +64,16 @@ namespace GS.AA
             {
                 Instance = this;
             }
+        }
+
+        private void OnEnable()
+        {
+            AdmobAds.instance.OnReward += SkipLevel;
+        }
+
+        private void OnDisable()
+        {
+            AdmobAds.instance.OnReward -= SkipLevel;
         }
 
         private void Start()
@@ -116,7 +119,7 @@ namespace GS.AA
                 adsTimer = AdsTimeInterval;
             }
 
-            if (currentLevel > 5)
+            if (currentLevel > 3)
             {
                 AdmobAds.instance.reqBannerAd();
             }
@@ -269,7 +272,7 @@ namespace GS.AA
             if (!isLevelCompletedOrGameOver)
             {
                 //Game Over Audio 
-                AudioManager.Instance.Play(gameOverClip);
+                GS.GameKit.AudioManager.Instance.Play(GameKit.SoundName.GAME_OVER);
 
                 // OnGameFinished?.Invoke();
 
@@ -294,7 +297,7 @@ namespace GS.AA
         {
             if (!isLevelCompletedOrGameOver)
             {
-                AudioManager.Instance.Play(victoryClip);
+                GS.GameKit.AudioManager.Instance.Play(GameKit.SoundName.LEVEL_COMPLETE);
 
                 currentLevel++;
                 PlayerPrefs.SetInt(TagsAndPlayerprefs.CURRENT_LEVEL, currentLevel);
@@ -327,10 +330,11 @@ namespace GS.AA
             isReloadedSameLevel = false;
             failedAttempt = 0;
             PlayerPrefs.SetInt(TagsAndPlayerprefs.IS_LAST_LEVEL_RELOADED, 0);
-            if (currentLevel == 5 || currentLevel == 10)
+            
+            /*if (currentLevel == 5 || currentLevel == 10)
             {
                 requestForAppReview = true;
-            }
+            }*/
 
             adsTimer = AdsTimeInterval;
             LoadLevel();
@@ -360,7 +364,6 @@ namespace GS.AA
         private void Reset()
         {
             totalBall = 0;
-            currentBallHitSoundIndex = 0;
             isLevelCompletedOrGameOver = false;
         }
 

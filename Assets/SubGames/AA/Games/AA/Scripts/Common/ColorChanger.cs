@@ -25,7 +25,10 @@ namespace GS.AA
                 {
                     sr.color = _color;
                 }
-            } catch (Exception e) { }
+            } catch (Exception e) 
+            {
+                Debug.LogError(e.Message);
+            }
 
             try
             {
@@ -34,7 +37,10 @@ namespace GS.AA
                 {
                     img.color = _color;
                 }
-            }catch(Exception e) { }
+            }catch(Exception e) 
+            {
+                Debug.LogError(e.Message);
+            }
 
             try
             {
@@ -43,7 +49,10 @@ namespace GS.AA
                 {
                     txt.color = _color;
                 }
-            }catch(Exception e) { }
+            }catch(Exception e) 
+            {
+                Debug.LogError(e.Message);
+            }
         }
     }
 }

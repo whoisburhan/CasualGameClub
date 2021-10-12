@@ -62,7 +62,7 @@ namespace GS.AA
                         Touch[] touches = Input.touches;
                         if (touches[0].phase == TouchPhase.Began)
                         {
-                            AudioManager.Instance.Play(GameManager.Instance.BallFireClip);
+                            GS.GameKit.AudioManager.Instance.Play(GS.GameKit.SoundName.CLICK);
 
                             isFired = true;
                             isCurrentBall = false;
@@ -75,7 +75,7 @@ namespace GS.AA
 #endif
                     if (Input.GetMouseButtonDown(0))
                     {
-                        AudioManager.Instance.Play(GameManager.Instance.BallFireClip);
+                        GS.GameKit.AudioManager.Instance.Play(GS.GameKit.SoundName.CLICK);
                         isFired = true;
                         isCurrentBall = false;
 

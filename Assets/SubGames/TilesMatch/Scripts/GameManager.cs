@@ -276,7 +276,7 @@ namespace GS.TilesMatch
 
                     StartCoroutine(WaitTime(() =>
                     {
-                        if (AudioManager.Instance != null) AudioManager.Instance.AudioChangeFunc(0, 3);
+                        if (GS.GameKit.AudioManager.Instance != null) GS.GameKit.AudioManager.Instance.AudioChangeFunc(GameKit.SoundName.SUCCESS,0);
                         tilesOne.transform.DOScale(0.1f, 0.5f).OnComplete(() =>
                         {
                             tilesOne.gameObject.SetActive(false);
@@ -302,7 +302,7 @@ namespace GS.TilesMatch
                         tilesTwo.ChangeBorderColorIndicatorColor(Color.red);
                         UI_Manager.Instance.SetWrongAttempt(failedAttempt.ToString());
 
-                        if (AudioManager.Instance != null) AudioManager.Instance.AudioChangeFunc(0, 2);
+                        if (GS.GameKit.AudioManager.Instance != null) GS.GameKit.AudioManager.Instance.AudioChangeFunc(GameKit.SoundName.GAME_OVER_3,0);
 
                     }, 1f));
 

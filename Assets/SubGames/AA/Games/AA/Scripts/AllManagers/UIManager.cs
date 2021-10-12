@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.Advertisements;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace GS.AA
 {
@@ -21,6 +22,8 @@ namespace GS.AA
         [SerializeField] private Button nextButton;
         [SerializeField] private Button retryButton;
         [SerializeField] public Button skipButton;
+        [SerializeField] private Button backToLobbyFromGameOverPanelButton;
+        [SerializeField] private Button backToLobbyFromLevelCompletePanelButton;
 
         [Header("UI Text")]
         [SerializeField] private Text gameOverPanelLevelNoText;
@@ -129,6 +132,16 @@ namespace GS.AA
                     GameManager.Instance.ActivateSarah("Oops! No Rewarded\n ads available now...");
                 }
 #endif
+            });
+
+            backToLobbyFromGameOverPanelButton.onClick.AddListener(() =>
+            {
+                SceneManager.LoadScene("Menu");
+            });
+
+            backToLobbyFromLevelCompletePanelButton.onClick.AddListener(() => 
+            {
+                SceneManager.LoadScene("Menu");
             });
         }
 

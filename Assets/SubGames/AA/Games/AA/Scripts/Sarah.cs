@@ -15,7 +15,7 @@ namespace GS.AA
             if (GameManager.Instance.requestForAppReview)
             {
 #if UNITY_ANDROID || UNITY_IOS
-                StartCoroutine(InAppReviewManager.Instance.RequestReview());
+               // StartCoroutine(InAppReviewManager.Instance.RequestReview());
 #endif
             }
         }
