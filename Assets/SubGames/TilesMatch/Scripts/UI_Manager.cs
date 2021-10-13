@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace GS.TilesMatch
 {
@@ -38,7 +39,7 @@ namespace GS.TilesMatch
         [SerializeField] private CanvasGroup GameCompletePanelCanvas;
 
         [Header("Buttons")]
-        [SerializeField] private Button homeButton, shopButton, hintButton, retryButton,nextLevelButton,backToMainMenuButton, rateButton, eventButton, settingsButton , pauseMenuShopButton, aboutUsButton;
+        [SerializeField] private Button homeButton, shopButton, hintButton, retryButton,nextLevelButton, backToMainMenuFromLevelCompletePanelButton, backToMainMenuButton, rateButton, eventButton, settingsButton , pauseMenuShopButton, aboutUsButton;
 
         [Header("Star Image")]
         [SerializeField] private Sprite[] starSprites;
@@ -78,6 +79,7 @@ namespace GS.TilesMatch
 
             nextLevelButton.onClick.AddListener(()=> { NextLevel(); });
 
+            backToMainMenuFromLevelCompletePanelButton.onClick.AddListener(() => { ReturnToMainMenu(); });
             backToMainMenuButton.onClick.AddListener(() => { ReturnToMainMenu(); });
 
             settingsButton.onClick.AddListener(() => { ComingSoonFunc(); });
@@ -206,15 +208,18 @@ namespace GS.TilesMatch
 
         public void ReturnToMainMenu()
         {
-            ResetCountDownTimerAnimation();
-            PausePanelCanvas.DOFade(0f, 0.3f);
+            //ResetCountDownTimerAnimation();
+            //PausePanelCanvas.DOFade(0f, 0.3f);
 
-            PausePanelCanvas.transform.DOScale(new Vector3(0.1f, 0.1f, 0.1f), 0.3f).OnComplete(() => 
-            {
-                PausePanelCanvas.blocksRaycasts = false;
-                GameplayCanvas.SetActive(false);
-                StartCanvas.SetActive(true);
-            });
+            //PausePanelCanvas.transform.DOScale(new Vector3(0.1f, 0.1f, 0.1f), 0.3f).OnComplete(() => 
+            //{
+            //    PausePanelCanvas.blocksRaycasts = false;
+            //    GameplayCanvas.SetActive(false);
+            //    StartCanvas.SetActive(true);
+            //});
+
+
+            SceneManager.LoadScene("Menu");
         }
 
 
