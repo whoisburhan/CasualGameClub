@@ -41,9 +41,9 @@ namespace GS.MergerColorSortBall
                     gameOverScoreText.text = score.ToString();
                     gameOverPanel.SetActive(true);
 
-                    if (AudioManager.Instance != null)
+                    if (GS.GameKit.AudioManager.Instance != null)
                     {
-                        AudioManager.Instance.AudioChangeFunc(0, 2);
+                        GS.GameKit.AudioManager.Instance.AudioChangeFunc(GameKit.SoundName.GAME_OVER_2);
                     }
                 }
             }
@@ -62,9 +62,9 @@ namespace GS.MergerColorSortBall
                     gameOverScoreText.text = score.ToString();
                     gameOverPanel.SetActive(true);
 
-                    if (AudioManager.Instance != null)
+                    if (GS.GameKit.AudioManager.Instance != null)
                     {
-                        AudioManager.Instance.AudioChangeFunc(0, 2);
+                        GS.GameKit.AudioManager.Instance.AudioChangeFunc(GameKit.SoundName.GAME_OVER_2);
                     }
                 }
             }

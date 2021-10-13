@@ -13,8 +13,8 @@ public class ButtonClickSound : MonoBehaviour
         {
             button.onClick.AddListener(() => 
             {
-                if(AudioManager.Instance != null)
-                    AudioManager.Instance.AudioChangeFunc(0, 1);
+                if(GS.GameKit.AudioManager.Instance != null)
+                    GS.GameKit.AudioManager.Instance.AudioChangeFunc(GS.GameKit.SoundName.CLICK_3,0);
             });
         }
     }

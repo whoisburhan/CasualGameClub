@@ -14,9 +14,9 @@ public class LevelLoader : MonoBehaviour
 
     private void Start()
     {
-        m_AA.onClick.AddListener(() => { SceneManager.LoadScene(1); });
-        m_TilesMatch.onClick.AddListener(() => { SceneManager.LoadScene(2); });
-        m_MergeBall.onClick.AddListener(() => { SceneManager.LoadScene(3); });
+        m_AA.onClick.AddListener(() => { SceneManager.LoadScene("AA"); });
+        m_TilesMatch.onClick.AddListener(() => { SceneManager.LoadScene("TilesMatch"); });
+        m_MergeBall.onClick.AddListener(() => { SceneManager.LoadScene("MergeBall"); });
         m_TilesBreak.onClick.AddListener(() => { SceneManager.LoadScene(4); });
     }
 }

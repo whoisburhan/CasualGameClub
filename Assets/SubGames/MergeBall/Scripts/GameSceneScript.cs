@@ -16,7 +16,7 @@ namespace GS.MergerColorSortBall
 
         public void BackToMainMenu()
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("Menu");
         }
 
         private void Update()

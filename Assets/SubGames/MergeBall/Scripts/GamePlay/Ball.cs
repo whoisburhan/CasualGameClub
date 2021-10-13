@@ -21,9 +21,9 @@ namespace GS.MergerColorSortBall
             {
                 if (BallNo > collision.gameObject.GetComponent<Ball>().BallNo)
                 {
-                    if(AudioManager.Instance != null)
+                    if(GS.GameKit.AudioManager.Instance != null)
                     {
-                        AudioManager.Instance.AudioChangeFunc(0, 0);
+                        GS.GameKit.AudioManager.Instance.AudioChangeFunc(GameKit.SoundName.CLICK_2,0);
                     }
 
                     Destroyer.Instance.score += (BallOrder + 1) * 5;

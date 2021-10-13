@@ -81,9 +81,9 @@ namespace GS.TilesMatch
             gridItemRows.Add(gridItemRow4);
             gridItemRows.Add(gridItemRow5);
 
-            if (AudioManager.Instance != null) AudioManager.Instance.BackgroundAudioFunc(0);
+            //if (AudioManager.Instance != null) AudioManager.Instance.BackgroundAudioFunc(0);
 
-            //Refresh();
+            Refresh();
 
             /*StartCoroutine(WaitTime(() =>
            {
