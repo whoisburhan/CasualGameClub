@@ -27,6 +27,7 @@ public class AdmobAds : MonoBehaviour
     public static AdmobAds instance;
 
     public Action OnReward;
+    public Action OnInterestialAdsComplete;
 
     private void Awake()
     {
@@ -45,7 +46,10 @@ public class AdmobAds : MonoBehaviour
     void Start()
     {
        // MobileAds.Initialize(GameID);
-        MobileAds.Initialize(initStatus => { });
+        MobileAds.Initialize(initStatus => 
+        {
+            //requestInterstital();
+        });
       
     }
 
@@ -147,9 +151,9 @@ public class AdmobAds : MonoBehaviour
 
 #region banner
 
-    public void reqBannerAd()
+    public void reqBannerAd(AdPosition adPosition = AdPosition.Bottom)
     {
-        this.bannerAd = new BannerView(bannerAdId, AdSize.Banner, AdPosition.Bottom);
+        this.bannerAd = new BannerView(bannerAdId, AdSize.Banner, adPosition);
 
         // Called when an ad request has successfully loaded.
         this.bannerAd.OnAdLoaded += this.HandleOnAdLoaded;
@@ -204,6 +208,11 @@ public class AdmobAds : MonoBehaviour
         }
     }
 
+    public bool IsInterestitialLoaded()
+    {
+        return interstitial.IsLoaded();
+    }
+
 #endregion
 
 #region adDelegates
@@ -230,6 +239,7 @@ public class AdmobAds : MonoBehaviour
         Debug.Log("Ad Closed");
         Time.timeScale = 1f;
         requestInterstital(); // Optional : in case you want to load another interstial ad rightaway
+        OnInterestialAdsComplete?.Invoke();
     }
 
     public void HandleOnAdLeavingApplication(object sender, EventArgs args)

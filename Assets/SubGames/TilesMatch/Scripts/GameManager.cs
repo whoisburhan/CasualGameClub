@@ -9,6 +9,7 @@ namespace GS.TilesMatch
 {
     public class GameManager : MonoBehaviour
     {
+
         public static GameManager Instance { get; private set; }
         public static event Action<bool> OnHideAllTiles;
         public static event Action<bool> OnShowAllTiles;
@@ -83,24 +84,24 @@ namespace GS.TilesMatch
 
             //if (AudioManager.Instance != null) AudioManager.Instance.BackgroundAudioFunc(0);
 
-            Refresh();
-
             /*StartCoroutine(WaitTime(() =>
            {
                OnHideAllTiles?.Invoke(false);
                Debug.Log("Working 2");
            }));*/
 
+            if (AdmobAds.instance != null)
+            {
+                AdmobAds.instance.reqBannerAd(GoogleMobileAds.Api.AdPosition.Bottom);
+                AdmobAds.instance.requestInterstital();
+            }
+
+            Refresh();
+
+            
         }
 
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Space) && IsAbleToRefresh)
-            {
-                // GenerateLevel(6);
-                Refresh();
-            }
-        }
+       
 
         private int TilesAmountDecider()
         {
@@ -163,12 +164,22 @@ namespace GS.TilesMatch
 
         public void Refresh()
         {
+            StartCoroutine(WaitTime(() => {
+                NewGame();
+                IsAbleToRefresh = false;
+                UI_Manager.Instance.SetRefreshButtonVisibility(false);
+            }, 0.6f));            
+            
+        }
+
+        private void RefreshGame()
+        {
             OnReset?.Invoke();
             StartCoroutine(WaitTime(() => {
                 NewGame();
                 IsAbleToRefresh = false;
                 UI_Manager.Instance.SetRefreshButtonVisibility(false);
-            },0.6f));
+            }, 0.6f));
         }
 
         public void ShowHint(int _showTilesTime)

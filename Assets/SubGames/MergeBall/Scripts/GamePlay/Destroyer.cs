@@ -23,6 +23,12 @@ namespace GS.MergerColorSortBall
             Instance = this;
         }
 
+        private void Start()
+        {
+            if (AdmobAds.instance != null)
+                AdmobAds.instance.reqBannerAd(GoogleMobileAds.Api.AdPosition.Bottom);
+        }
+
         private void Update()
         {
             scoreText.text = score.ToString();

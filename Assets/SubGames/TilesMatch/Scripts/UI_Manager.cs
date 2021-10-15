@@ -50,6 +50,9 @@ namespace GS.TilesMatch
 
         private bool isCountDownTimerActivated = true;
 
+        private float AdsTimeInterval = 130f;
+        private float adsTimer;
+
         private void Awake()
         {
             Instance = this;
@@ -67,6 +70,11 @@ namespace GS.TilesMatch
 
         private void Start()
         {
+            // Ads
+            adsTimer = AdsTimeInterval;
+            
+            //-----------------------
+
             homeButton.onClick.AddListener(() => { Pause(); });
 
             shopButton.onClick.AddListener(() => { ComingSoonFunc(); });
@@ -87,6 +95,11 @@ namespace GS.TilesMatch
 
             pauseMenuShopButton.onClick.AddListener(() => { ComingSoonFunc(); });
             aboutUsButton.onClick.AddListener(() => { ComingSoonFunc(); });
+        }
+
+        private void Update()
+        {
+            adsTimer -= Time.deltaTime;
         }
 
         private void CheckForLevelComplete()
@@ -164,15 +177,46 @@ namespace GS.TilesMatch
             levelNoText.text = "Level - " + currentLevelNo.ToString();
         }
 
-        public void NextLevel(Action OnNextLevel = null)
+        public void NextLevel()
+        {
+            if (adsTimer <= 0)
+            {
+                if (AdmobAds.instance != null)
+                {
+                    if (AdmobAds.instance.IsInterestitialLoaded())
+                    {
+                        AdmobAds.instance.OnInterestialAdsComplete += NextLevelTransictionFunc;
+                        adsTimer = AdsTimeInterval;
+                        AdmobAds.instance.ShowInterstitialAd();
+
+                    }
+                    else
+                    {
+                        AdmobAds.instance.requestInterstital();
+                        NextLevelTransictionFunc();
+                    }
+                }
+                else
+                {
+                    AdmobAds.instance.requestInterstital();
+                    NextLevelTransictionFunc();
+                }
+            }
+            else
+            {
+                NextLevelTransictionFunc();
+            }
+        }
+
+        private void NextLevelTransictionFunc()
         {
             LevelCompleteParticleEffectCanvas.SetActive(false);
             GameCompletePanelCanvas.DOFade(0f, 0.3f);
 
-            GameCompletePanelCanvas.transform.DOScale(new Vector3(0.1f, 0.1f, 0.1f), 0.3f).OnComplete(() => { 
+            GameCompletePanelCanvas.transform.DOScale(new Vector3(0.1f, 0.1f, 0.1f), 0.3f).OnComplete(() => {
                 GameCompletePanelCanvas.blocksRaycasts = false;
-                
-                foreach(Image _img in starImages)
+
+                foreach (Image _img in starImages)
                 {
                     _img.sprite = starSprites[0];
                 }
@@ -180,7 +224,7 @@ namespace GS.TilesMatch
                 GameManager.Instance.CurrentLevelNo++;
                 GameManager.Instance.NewGame();
                 Reset();
-                OnNextLevel?.Invoke();
+
             });
         }
         public void Pause()
