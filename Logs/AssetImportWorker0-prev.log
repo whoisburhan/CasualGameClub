@@ -1,0 +1,1847 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.17f1 (a4537701e4ab) revision 10769271'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16178 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity Hub\2020.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GameSeekers/CasualGameClub
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50251
+Successfully changed project path to: D:/GameSeekers/CasualGameClub
+D:/GameSeekers/CasualGameClub
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.17f1 (a4537701e4ab)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GameSeekers/CasualGameClub/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity Hub/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001315 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1314ms)
+		BeginReloadAssembly (35ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (304ms)
+			LoadAssemblies (33ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (91ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (137ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (53ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 52.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (889ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3653 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.7 MB.
+System memory in use after: 154.9 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 4021.
+Total: 2.576100 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.160900 ms  DeleteObjects: 0.046500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/SubGames/TilesBreak/Materials/Particle.mat
+  artifactKey: Guid(a3f3e582c1e4031438ef0dffa8a4bbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Materials/Particle.mat using Guid(a3f3e582c1e4031438ef0dffa8a4bbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dbf3a4b742b6542b5f669c88c2ff8b8') in 0.220177 seconds 
+  Import took 0.224639 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Domain Reload Profiling:
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (720ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.5 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 134 unused Assets to reduce memory usage. Loaded Objects now: 4102.
+Total: 4.058900 ms (FindLiveObjects: 0.405200 ms CreateObjectMapping: 0.204500 ms MarkObjects: 3.403500 ms  DeleteObjects: 0.044600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.6 MB.
+System memory in use after: 149.8 MB.
+
+Unloading 134 unused Assets to reduce memory usage. Loaded Objects now: 4105.
+Total: 2.732000 ms (FindLiveObjects: 0.214000 ms CreateObjectMapping: 0.126100 ms MarkObjects: 2.350600 ms  DeleteObjects: 0.040500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004345 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (777ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3529 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.6 MB.
+System memory in use after: 149.9 MB.
+
+Unloading 134 unused Assets to reduce memory usage. Loaded Objects now: 4108.
+Total: 3.324400 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.130100 ms MarkObjects: 2.873200 ms  DeleteObjects: 0.048100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 401.027082 seconds.
+  path: Assets/GameKit
+  artifactKey: Guid(7723763ec240b9446bc711efcc5c1a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameKit using Guid(7723763ec240b9446bc711efcc5c1a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0108744bb58de9bda27f9cec0ce4164') in 0.015475 seconds 
+  Import took 0.020178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.349630 seconds.
+  path: Assets/GameKit/GameKit.asmdef
+  artifactKey: Guid(5234081c362a40342b9ecee8fcb3ce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameKit/GameKit.asmdef using Guid(5234081c362a40342b9ecee8fcb3ce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ab369cf907c836b8c6345b5409a624') in 0.002596 seconds 
+  Import took 0.007314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/GameKit/gseeekerlogo.png
+  artifactKey: Guid(ac869cafaa90f8c4d8cfeed0dfbcbdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameKit/gseeekerlogo.png using Guid(ac869cafaa90f8c4d8cfeed0dfbcbdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f0bcc10dedd04a775a2e50218c0f87') in 0.065264 seconds 
+  Import took 0.069315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.389289 seconds.
+  path: Assets/GameKit/Sprites
+  artifactKey: Guid(ab4248ccce523b44f9a5d17d81d7f67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameKit/Sprites using Guid(ab4248ccce523b44f9a5d17d81d7f67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1922d6b8cd0ed6ee94a7c7faa3bf51') in 0.019742 seconds 
+  Import took 0.024529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040848 seconds.
+  path: Assets/GameKit/Sprites/Ring.png
+  artifactKey: Guid(4c6f59d4c4a0dc74cba9c8aaa35684bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameKit/Sprites/Ring.png using Guid(4c6f59d4c4a0dc74cba9c8aaa35684bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '168a42998bef353757b8bcf27228993c') in 0.024196 seconds 
+  Import took 0.028748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.781409 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/14.psd
+  artifactKey: Guid(45c4c74c940a7834d9af6842b0d0dc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/14.psd using Guid(45c4c74c940a7834d9af6842b0d0dc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9e71849c588b9cb35f548ee2787e39') in 0.057071 seconds 
+  Import took 0.061828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/background.png
+  artifactKey: Guid(ac174e335b49b90439f5edcad05cf8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/background.png using Guid(ac174e335b49b90439f5edcad05cf8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81943533eb4a7dbaeadfcf4edb37228') in 0.037663 seconds 
+  Import took 0.042814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/Ballone.png
+  artifactKey: Guid(2043b169a6366c14c9988dd03451bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/Ballone.png using Guid(2043b169a6366c14c9988dd03451bb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e1b436cc60716d4e109fe3b71d588e') in 0.040349 seconds 
+  Import took 0.045334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x100.png
+  artifactKey: Guid(1a2723ddf964e4565a408007ab387283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x100.png using Guid(1a2723ddf964e4565a408007ab387283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517e3d215f6867156f3c8e650ecb6e85') in 0.018739 seconds 
+  Import took 0.023178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x480.png
+  artifactKey: Guid(77d9c04b43d404f44ab60d7159b279bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x480.png using Guid(77d9c04b43d404f44ab60d7159b279bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359ef83825f72fa6c005fa0a356d4c06') in 0.028355 seconds 
+  Import took 0.033288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/ball1.png
+  artifactKey: Guid(42df8efe86ee5e54bba8443c0797b576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/ball1.png using Guid(42df8efe86ee5e54bba8443c0797b576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29e4fe9e86cdd1bc559a56ab68a50c0') in 0.015871 seconds 
+  Import took 0.020250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/MainMenu/Border.png
+  artifactKey: Guid(ed661cc5c59595b41ad65517b902059f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/Border.png using Guid(ed661cc5c59595b41ad65517b902059f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2018a8acb1ba10b3abf747d14eec91d0') in 0.033034 seconds 
+  Import took 0.037847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/background.png
+  artifactKey: Guid(26fee6dc513fba14593b78c3daa84784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/background.png using Guid(26fee6dc513fba14593b78c3daa84784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e719989fdb774c5bd42a7b419798a48e') in 0.015714 seconds 
+  Import took 0.033791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x50.png
+  artifactKey: Guid(5a6531d4c9c484d679a2d6f9e6fefed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/320x50.png using Guid(5a6531d4c9c484d679a2d6f9e6fefed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab75476382261ad290e6225eef39adf8') in 0.014017 seconds 
+  Import took 0.019293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/1024x768.png
+  artifactKey: Guid(4c69db43dbd474a2987be5807129b4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/1024x768.png using Guid(4c69db43dbd474a2987be5807129b4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21972fd6a5973785e0f02fcc7a6d5354') in 0.047340 seconds 
+  Import took 0.052318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/300x250.png
+  artifactKey: Guid(898f886a39d714db5b90d2c36676c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/300x250.png using Guid(898f886a39d714db5b90d2c36676c894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de7e7a5f7dafacea5374446a638d47f') in 0.020161 seconds 
+  Import took 0.025107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/468x60.png
+  artifactKey: Guid(74358f5fb13a549aabac4a5a7ac76739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/468x60.png using Guid(74358f5fb13a549aabac4a5a7ac76739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcf9bfb6e296affd686cbf3bfd3e830') in 0.014954 seconds 
+  Import took 0.019812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/16X16.png
+  artifactKey: Guid(82e193c36d6e4164b9947ec28124ca6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/16X16.png using Guid(82e193c36d6e4164b9947ec28124ca6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82c53920953e3eba6c211676e1453e8') in 0.042212 seconds 
+  Import took 0.046965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/button.png
+  artifactKey: Guid(b6e825c01218ab34cb3150767e25189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/button.png using Guid(b6e825c01218ab34cb3150767e25189b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e953835d24d39a65770ced73d7c37aa') in 0.024368 seconds 
+  Import took 0.028651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/480x320.png
+  artifactKey: Guid(d30303c99ba3f4b9b9924da34e6d742d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/480x320.png using Guid(d30303c99ba3f4b9b9924da34e6d742d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c0823ddfe43c5f7d553945e77517c2') in 0.025102 seconds 
+  Import took 0.030477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/728x90.png
+  artifactKey: Guid(cfead63ff9d9d48e2b4ba3c2dee7cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/728x90.png using Guid(cfead63ff9d9d48e2b4ba3c2dee7cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3b7ce82d2fafbf44a39e6a1ca715f0') in 0.021618 seconds 
+  Import took 0.026242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SubGames/MergeBall/Sprites/backgroundmy.png
+  artifactKey: Guid(b26bf88310b37454287f561de8f7d049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Sprites/backgroundmy.png using Guid(b26bf88310b37454287f561de8f7d049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c424c887034c7a4492c8bfd1ea27501') in 0.063944 seconds 
+  Import took 0.068671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/SubGames/MergeBall/Sprites/background.png
+  artifactKey: Guid(d0cbc5681070e0e4b839f70c0d190730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Sprites/background.png using Guid(d0cbc5681070e0e4b839f70c0d190730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6498e4db0201b85ca8e6d0010989c9') in 0.011293 seconds 
+  Import took 0.015823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/768x1024.png
+  artifactKey: Guid(8a53f9c63a5e94b14a98698a7b07365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GoogleMobileAds/Editor/Resources/DummyAds/AdImages/768x1024.png using Guid(8a53f9c63a5e94b14a98698a7b07365b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ce49384e26364c4d1cd1d60e0fa8ff') in 0.015656 seconds 
+  Import took 0.020457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/UI/backButton.png
+  artifactKey: Guid(528951af82384bc4391c1aa06c63b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/UI/backButton.png using Guid(528951af82384bc4391c1aa06c63b881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daeb5a28df472f181aed8e14d22f226') in 0.046600 seconds 
+  Import took 0.050930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/MainMenu/BG.png
+  artifactKey: Guid(770c081616f23454b97f1a68b43ecc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/BG.png using Guid(770c081616f23454b97f1a68b43ecc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974b66d2b79bd9cb05880b2c99381fc5') in 0.014904 seconds 
+  Import took 0.019086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Background/119417-green-abstract-background-vector.jpg
+  artifactKey: Guid(231ede6a25ac3a44081cb790be0bb6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Background/119417-green-abstract-background-vector.jpg using Guid(231ede6a25ac3a44081cb790be0bb6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c0460048c1408360ebbd70ab92a191') in 0.041709 seconds 
+  Import took 0.046655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/Button.png
+  artifactKey: Guid(9ebc904746c775d4fb2c0df7823ff9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/Button.png using Guid(9ebc904746c775d4fb2c0df7823ff9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6c44501179c0e15d1634f460b39585') in 0.030156 seconds 
+  Import took 0.035114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/ball.png
+  artifactKey: Guid(5918cc19da1d0f440ad26234b91d8f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/ball.png using Guid(5918cc19da1d0f440ad26234b91d8f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459a5bc4583c782f708621609577149e') in 0.038309 seconds 
+  Import took 0.044281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008897 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/ball.png
+  artifactKey: Guid(5918cc19da1d0f440ad26234b91d8f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/ball.png using Guid(5918cc19da1d0f440ad26234b91d8f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459a5bc4583c782f708621609577149e') in 0.016774 seconds 
+  Import took 0.022308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.005595 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/button-300x176.png
+  artifactKey: Guid(25335c8a1dd644245a990a7bae927fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/button-300x176.png using Guid(25335c8a1dd644245a990a7bae927fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd033c063ec6f0beb96cf7b27eaa51ca') in 0.028100 seconds 
+  Import took 0.048821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/Circle.png
+  artifactKey: Guid(9f8e0fb5706ab7f429650fad9d4e4cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/Circle.png using Guid(9f8e0fb5706ab7f429650fad9d4e4cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a7bd0a2e4935cba7d7d5a416cba1c8') in 0.018975 seconds 
+  Import took 0.023709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/Circle.png
+  artifactKey: Guid(d126376a879cc504aa1e767d3f9361bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/Circle.png using Guid(d126376a879cc504aa1e767d3f9361bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bafd4f454a43973e93815ca6f08ace7') in 0.013006 seconds 
+  Import took 0.017830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/Buttons.png
+  artifactKey: Guid(4c6b1509f6d89c44aaaaf5fd71466b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/Buttons.png using Guid(4c6b1509f6d89c44aaaaf5fd71466b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d9b3ac6c851217f4d40842ca0af615') in 0.066283 seconds 
+  Import took 0.071329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/button0.png
+  artifactKey: Guid(762d1da4cf96b0849a4f2ce2a4c2482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/button0.png using Guid(762d1da4cf96b0849a4f2ce2a4c2482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47605ea503c720e8be6297f934d7dcd9') in 0.037238 seconds 
+  Import took 0.042271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004600 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/button0.png
+  artifactKey: Guid(762d1da4cf96b0849a4f2ce2a4c2482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/button0.png using Guid(762d1da4cf96b0849a4f2ce2a4c2482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47605ea503c720e8be6297f934d7dcd9') in 0.014365 seconds 
+  Import took 0.019360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.450499 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/clipart2253438.png
+  artifactKey: Guid(30e265890acb20a4fb4d65021a0b0dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/clipart2253438.png using Guid(30e265890acb20a4fb4d65021a0b0dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d7f697d2f6ff433b72dd4689bfc1b9') in 0.011691 seconds 
+  Import took 0.016393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/clipart2253438.png
+  artifactKey: Guid(97f4d0f0f7d816d4fa06078df9311ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/clipart2253438.png using Guid(97f4d0f0f7d816d4fa06078df9311ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a07a15bcd97dc7054137f0a8984506d') in 0.009042 seconds 
+  Import took 0.013090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/clipart2253438.png
+  artifactKey: Guid(a6ecca1ff84078d4588d76233da31b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/clipart2253438.png using Guid(a6ecca1ff84078d4588d76233da31b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6653e730b57e5e939d81d859a6a07616') in 0.035499 seconds 
+  Import took 0.039731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/SubGames/TilesBreak/2021/MainMenu/ColorSwitchSubLogo.png
+  artifactKey: Guid(2f35400b0005d0e4398e310f83ea320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/MainMenu/ColorSwitchSubLogo.png using Guid(2f35400b0005d0e4398e310f83ea320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d078ca40c0936e1f3d189b6177255a') in 0.034271 seconds 
+  Import took 0.039253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/coollogo_com-127642492.png
+  artifactKey: Guid(e75610251480fca428f816ed2d55c8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/coollogo_com-127642492.png using Guid(e75610251480fca428f816ed2d55c8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded5068710e622bdb01d9985c96ccd3e') in 0.026467 seconds 
+  Import took 0.030975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/ComingSoon.png
+  artifactKey: Guid(79eb4d12ff846df48984ed00861b14ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/ComingSoon.png using Guid(79eb4d12ff846df48984ed00861b14ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc50877cc6e113949ad9304152fa286') in 0.038829 seconds 
+  Import took 0.043651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/Container.png
+  artifactKey: Guid(9f421d8453fee284195e3e1113cd8def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/Container.png using Guid(9f421d8453fee284195e3e1113cd8def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2947ce0fb2fe65bf597b91432bca68ec') in 0.047011 seconds 
+  Import took 0.051445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.225190 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Particles/Pink_Flower_Transparent_Clip_Art.png
+  artifactKey: Guid(55cd5ca55b067034aa43a45443f64010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Particles/Pink_Flower_Transparent_Clip_Art.png using Guid(55cd5ca55b067034aa43a45443f64010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c4deaf343658e49c90eb7874441f8f') in 0.062033 seconds 
+  Import took 0.067508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/Sarah-4.png
+  artifactKey: Guid(db0594308ae9c7346a18f93efdc3a3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/Sarah-4.png using Guid(db0594308ae9c7346a18f93efdc3a3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c33d9880f8068884885347d5ebe1dac') in 0.029009 seconds 
+  Import took 0.033944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/pngegg.png
+  artifactKey: Guid(810b9ae975d38d142917bca81654f257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/pngegg.png using Guid(810b9ae975d38d142917bca81654f257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb47d1fef89c0198a3b0cd378673b177') in 0.049983 seconds 
+  Import took 0.055107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/SeekPng.com_white-star-png_136378.png
+  artifactKey: Guid(51c6d8b53ef33a646809ef9eefa025e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/SeekPng.com_white-star-png_136378.png using Guid(51c6d8b53ef33a646809ef9eefa025e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8871d05cb6a26070506175679d2963') in 0.031550 seconds 
+  Import took 0.036372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/SubGames/MergeBall/Sarah-1[Notification].png
+  artifactKey: Guid(939da4c435986ca4dba48730c43ad74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Sarah-1[Notification].png using Guid(939da4c435986ca4dba48730c43ad74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89d7906d1c9fe14a1a0ddd1698a99d0') in 0.022444 seconds 
+  Import took 0.028199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/Square.png
+  artifactKey: Guid(04202fb0d70e8a44d8911056573aa660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/Square.png using Guid(04202fb0d70e8a44d8911056573aa660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d13e0da85263d8e5678ff5fe6a4c1de') in 0.040952 seconds 
+  Import took 0.045661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/PlayButton1.png
+  artifactKey: Guid(3546ed0187136334fa30f93020337f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/PlayButton1.png using Guid(3546ed0187136334fa30f93020337f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babe75bd4330c39db3cfb4536e213a27') in 0.037976 seconds 
+  Import took 0.042526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/SubGames/TilesBreak/2021/UtilityScene/Sprites/Sarah-1[Notification].png
+  artifactKey: Guid(9c2562053fe9864408ca2270dfee12f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/UtilityScene/Sprites/Sarah-1[Notification].png using Guid(9c2562053fe9864408ca2270dfee12f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2f1020d88c022e0c0ba8df515cec06') in 0.014457 seconds 
+  Import took 0.020938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/Sarah-1.png
+  artifactKey: Guid(cf427f2bcbdc94f4bb15e6d6ad899aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/Sarah-1.png using Guid(cf427f2bcbdc94f4bb15e6d6ad899aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e44aa7952778d2b462ea2d9db37445dd') in 0.043176 seconds 
+  Import took 0.049116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/Sarah-1[Notification].png
+  artifactKey: Guid(170c5b9fda9523f4d9e2afcd855416d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/Sarah-1[Notification].png using Guid(170c5b9fda9523f4d9e2afcd855416d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e5773c3720c5e8d6412c4944943d03') in 0.010568 seconds 
+  Import took 0.016060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Particles/Pink_Flower_Transparent_Clip_Art.png
+  artifactKey: Guid(55cd5ca55b067034aa43a45443f64010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Particles/Pink_Flower_Transparent_Clip_Art.png using Guid(55cd5ca55b067034aa43a45443f64010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c4deaf343658e49c90eb7874441f8f') in 0.020400 seconds 
+  Import took 0.025472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/Square.png
+  artifactKey: Guid(5d70a3711460aa04383e84f450beb337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/Square.png using Guid(5d70a3711460aa04383e84f450beb337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ff0a98197a1f5ae1d31f594ce1f1e0') in 0.030304 seconds 
+  Import took 0.035216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/UI/ShareButton.png
+  artifactKey: Guid(0e86569fc3fd8624c836859c5f7598ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/UI/ShareButton.png using Guid(0e86569fc3fd8624c836859c5f7598ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e122b0864817884d8595cebff8b027') in 0.035501 seconds 
+  Import took 0.056329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/REPLAY.png
+  artifactKey: Guid(b74ee331e760fbf4eb69dc7c5799ffd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/REPLAY.png using Guid(b74ee331e760fbf4eb69dc7c5799ffd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b8976a56b2cc551c1b626e7f9b95e6') in 0.026600 seconds 
+  Import took 0.032555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/PlayButton.png
+  artifactKey: Guid(c6af81771517ea849803d4ef23b8fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/PlayButton.png using Guid(c6af81771517ea849803d4ef23b8fa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576485e98ceac2fff30a60516e7af892') in 0.029017 seconds 
+  Import took 0.033893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/slider.png
+  artifactKey: Guid(603031380521fc44c8d9a7290c879a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/slider.png using Guid(603031380521fc44c8d9a7290c879a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2774d810affed72e10a2f62f0d8cf29') in 0.023960 seconds 
+  Import took 0.028379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/SubGames/TilesBreak/2021/UtilityScene/GameKit/Sprites/Ring.png
+  artifactKey: Guid(7487199d6b811294eb89593e598eda5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/UtilityScene/GameKit/Sprites/Ring.png using Guid(7487199d6b811294eb89593e598eda5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d3c12b77424cd59157ec03ae8e25a2') in 0.010301 seconds 
+  Import took 0.015511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/Sarah-2.png
+  artifactKey: Guid(fc93d54908e44994197f90fe91a31322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/Sarah-2.png using Guid(fc93d54908e44994197f90fe91a31322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2221e2ea05a878eea7088d8f4eabe01d') in 0.035919 seconds 
+  Import took 0.041387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/RoundedRect2.png
+  artifactKey: Guid(8d2c84ffacac731408faa4899845e0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/RoundedRect2.png using Guid(8d2c84ffacac731408faa4899845e0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737e0010349f97efe004317951543d14') in 0.037637 seconds 
+  Import took 0.043115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000656 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/PlayButton.png
+  artifactKey: Guid(72b33b80e4ba3b941a24d51bb397d05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/PlayButton.png using Guid(72b33b80e4ba3b941a24d51bb397d05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71879353d516af79cd349b8056e389b5') in 0.014274 seconds 
+  Import took 0.019210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/UI/play Button.png
+  artifactKey: Guid(7505f6760bdd7f44db3bd8712334c187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/UI/play Button.png using Guid(7505f6760bdd7f44db3bd8712334c187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d27a07dd8655cca4945abcff507fae') in 0.037042 seconds 
+  Import took 0.041275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/SubGames/TilesBreak/2021/MainMenu/Sprites/stack2dSublogo.png
+  artifactKey: Guid(ae837e32f11ca1c409e7c7602f836c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/MainMenu/Sprites/stack2dSublogo.png using Guid(ae837e32f11ca1c409e7c7602f836c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b110e07e59185cae215e349fcee89e') in 0.038139 seconds 
+  Import took 0.042398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/slider.png
+  artifactKey: Guid(e302ddbe8a616f64486e53940e9fc3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/slider.png using Guid(e302ddbe8a616f64486e53940e9fc3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6232ed23f22568198f04cfbf9c3e5f8f') in 0.022353 seconds 
+  Import took 0.027141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/RoundedRect.png
+  artifactKey: Guid(91c5bafaedb251646aaf538ddd4a0481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/RoundedRect.png using Guid(91c5bafaedb251646aaf538ddd4a0481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f0a4b4f9b9bc2bacbd7d95b44ac040') in 0.026149 seconds 
+  Import took 0.031741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/Sarah-3.png
+  artifactKey: Guid(254869fa8efd19642a6d37509b25cf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/Sarah-3.png using Guid(254869fa8efd19642a6d37509b25cf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507aec9ad21faead620a9370ee07e75d') in 0.024230 seconds 
+  Import took 0.030396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/Play.psd
+  artifactKey: Guid(9140bc8bcc429c447af0e5475dc8c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/Play.psd using Guid(9140bc8bcc429c447af0e5475dc8c975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1ea5a2c78c5729db2513a0deb3f208') in 0.013283 seconds 
+  Import took 0.018177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/PlayButton.png
+  artifactKey: Guid(361464c30b3dd8c4eb0b2c48781c3912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/PlayButton.png using Guid(361464c30b3dd8c4eb0b2c48781c3912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a304bfc7093a301955220bfbbba1e6') in 0.032143 seconds 
+  Import took 0.038268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052232 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/Star.png
+  artifactKey: Guid(f00e6547fd759674ba6246f724551ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/Star.png using Guid(f00e6547fd759674ba6246f724551ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3d7547aa106b1325fceb05ae36bd4e') in 0.075146 seconds 
+  Import took 0.079924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/Tile_lvl3.png
+  artifactKey: Guid(d04784e67d1c6eb4b9d4a1de7da82b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/Tile_lvl3.png using Guid(d04784e67d1c6eb4b9d4a1de7da82b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9499e5f079f8d3879f580f2d9aa4a39') in 0.015538 seconds 
+  Import took 0.019713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/Tiles.png
+  artifactKey: Guid(cb2ce15661b6c034291ad75de42a5043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/Tiles.png using Guid(cb2ce15661b6c034291ad75de42a5043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8145f5e5169171ff5d4b9f04fe1ff8fb') in 0.026818 seconds 
+  Import took 0.031812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/Tile_lvl2.png
+  artifactKey: Guid(3b60e1b4a8158a447be91c09df629168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/Tile_lvl2.png using Guid(3b60e1b4a8158a447be91c09df629168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e61165a948774cd27dc2cdb421c6956') in 0.011796 seconds 
+  Import took 0.016069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/Tile_lvl1.png
+  artifactKey: Guid(0a5df7f1165d5904ca4ed5839741727a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/Tile_lvl1.png using Guid(0a5df7f1165d5904ca4ed5839741727a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce675c739f51fa742a716aa2d10e647') in 0.013897 seconds 
+  Import took 0.018794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles1.png
+  artifactKey: Guid(0a7aa6261f4062f4faf81e7f11adc7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles1.png using Guid(0a7aa6261f4062f4faf81e7f11adc7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ec5bba19931ddfd9ce947739bf1808') in 0.026631 seconds 
+  Import took 0.031632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles1.png
+  artifactKey: Guid(0a7aa6261f4062f4faf81e7f11adc7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles1.png using Guid(0a7aa6261f4062f4faf81e7f11adc7bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ec5bba19931ddfd9ce947739bf1808') in 0.013440 seconds 
+  Import took 0.018026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.322734 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles2.png
+  artifactKey: Guid(166c47f5a9321144da9bde9d5f4b7ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles2.png using Guid(166c47f5a9321144da9bde9d5f4b7ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8564c341e74095424437dcf486ebdc') in 0.012624 seconds 
+  Import took 0.017543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles8.png
+  artifactKey: Guid(3ba03cefd91bf974db7a24fc99cc376c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles8.png using Guid(3ba03cefd91bf974db7a24fc99cc376c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60eafcc6df62e04d8c7ae63cce7dc162') in 0.043721 seconds 
+  Import took 0.048105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles4.png
+  artifactKey: Guid(1d955cef0f889ca4b9ba368592019c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles4.png using Guid(1d955cef0f889ca4b9ba368592019c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3dab31de8f9c1f99597c4f1e9ec451') in 0.050478 seconds 
+  Import took 0.054920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles3.png
+  artifactKey: Guid(0cc0f269a94a47b4abd61777eead86c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles3.png using Guid(0cc0f269a94a47b4abd61777eead86c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6900b7edcea8234237108df36853f270') in 0.019014 seconds 
+  Import took 0.024588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles6.png
+  artifactKey: Guid(fadd299261a142945be0d193541f8f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles6.png using Guid(fadd299261a142945be0d193541f8f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eadda7b1812aa452268f60be9123a7f') in 0.032313 seconds 
+  Import took 0.037123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles5.png
+  artifactKey: Guid(e628d396e5a9fb644a56082e60cd5dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles5.png using Guid(e628d396e5a9fb644a56082e60cd5dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70fa216665d33856054bdc26fd7abe3') in 0.031190 seconds 
+  Import took 0.036144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles7.png
+  artifactKey: Guid(fd3907dda2998ec47bf38d34ccacf733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles7.png using Guid(fd3907dda2998ec47bf38d34ccacf733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221ca0f8268c3457aee3ba92a54ee42c') in 0.046764 seconds 
+  Import took 0.052755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.290833 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles9.png
+  artifactKey: Guid(65864a0b4dbf371449e433a2b1cfde05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles9.png using Guid(65864a0b4dbf371449e433a2b1cfde05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5973c588987d73ec40d9ce34755e5e') in 0.013242 seconds 
+  Import took 0.018031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/TilesBorder.png
+  artifactKey: Guid(bd72187ae09a8764cbdcb0074eeac1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/TilesBorder.png using Guid(bd72187ae09a8764cbdcb0074eeac1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e974a1aa7aa142239e2e3ba5e8a9d29') in 0.027543 seconds 
+  Import took 0.032022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles11.png
+  artifactKey: Guid(00939fc5fe6708049bbe5301d47df56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles11.png using Guid(00939fc5fe6708049bbe5301d47df56c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af9bd214ee4e0bf88392e2815d75957') in 0.067591 seconds 
+  Import took 0.072208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI.psd
+  artifactKey: Guid(35d613cc7dc9e7c46bb6ba532ce8f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI.psd using Guid(35d613cc7dc9e7c46bb6ba532ce8f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af0de3fc04ec2bf930500bcd3f00ef1') in 0.062869 seconds 
+  Import took 0.067304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SubGames/MergeBall/Sprites/toppng.com-coolest-pink-galaxy-background-blue-light-star-particle-light-particle-989x1014.png
+  artifactKey: Guid(d26d302fdda1a2741959a841a886cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Sprites/toppng.com-coolest-pink-galaxy-background-blue-light-star-particle-light-particle-989x1014.png using Guid(d26d302fdda1a2741959a841a886cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ebb7bf911cda90a58fa96ba464708a') in 0.057390 seconds 
+  Import took 0.066133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles10.png
+  artifactKey: Guid(dce62b6f7d5782e4da998825484be526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles10.png using Guid(dce62b6f7d5782e4da998825484be526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeddd3f7303e8dc4aa88343f59a83495') in 0.046872 seconds 
+  Import took 0.050994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/TilesMatchBackground.png
+  artifactKey: Guid(3777eb0614d8d9a449befa82639e8a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/TilesMatchBackground.png using Guid(3777eb0614d8d9a449befa82639e8a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dedce70554f4e23535658055d13da78') in 0.079183 seconds 
+  Import took 0.083546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/MainMenu/TilesBreakSubLogo.png
+  artifactKey: Guid(7141d1abf7de12d4cb6c6f4aae0c18ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/TilesBreakSubLogo.png using Guid(7141d1abf7de12d4cb6c6f4aae0c18ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f51dced501559ce88e135e6147b43c') in 0.117554 seconds 
+  Import took 0.121668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles12.png
+  artifactKey: Guid(93fe0004a2363e44c93f4741f47085fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Tiles/Tiles12.png using Guid(93fe0004a2363e44c93f4741f47085fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdea8c0e0662d858481eb92d07c3c127') in 0.038123 seconds 
+  Import took 0.042864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/Title.psd
+  artifactKey: Guid(58586f96abc383543a1f0ddf71ac3755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/Title.psd using Guid(58586f96abc383543a1f0ddf71ac3755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a5d704a731aa5bcb1925c770b56dbf') in 0.010980 seconds 
+  Import took 0.016540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/UI.png
+  artifactKey: Guid(df65eb93440b0844187472132679fa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/UI.png using Guid(df65eb93440b0844187472132679fa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fe1dae6b7d7cbe09fec41ac11eb0a8') in 0.069503 seconds 
+  Import took 0.074046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/UI_Panel.png
+  artifactKey: Guid(266fd14b013224743b094267f7901928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/UI_Panel.png using Guid(266fd14b013224743b094267f7901928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c661f47d8425c23d6f26187a872c0c') in 0.020704 seconds 
+  Import took 0.025890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SubGames/TilesBreak/2021/MainMenu/Sprites/TilesBreakSubLogo.png
+  artifactKey: Guid(388aeaf27fac8014fb50658393dfbfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/MainMenu/Sprites/TilesBreakSubLogo.png using Guid(388aeaf27fac8014fb50658393dfbfca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb93679f1f183c6f0c76eb1e47ace0d') in 0.015141 seconds 
+  Import took 0.020065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/toppng.com-coolest-pink-galaxy-background-blue-light-star-particle-light-particle-989x1014.png
+  artifactKey: Guid(16bdd28215c16774ea31dcd3ee5c0382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/toppng.com-coolest-pink-galaxy-background-blue-light-star-particle-light-particle-989x1014.png using Guid(16bdd28215c16774ea31dcd3ee5c0382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2325165cc15ced8e65354d8af2089bd6') in 0.013622 seconds 
+  Import took 0.017804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/UI.png
+  artifactKey: Guid(6f8b92f70e1ff804186eaed5cd165728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/UI.png using Guid(6f8b92f70e1ff804186eaed5cd165728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac9bf76dc1e47a428ae0c47ece6f70b') in 0.032205 seconds 
+  Import took 0.036550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/toppng.com-coolest-pink-galaxy-background-blue-light-star-particle-light-particle-989x1014.png
+  artifactKey: Guid(16bdd28215c16774ea31dcd3ee5c0382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/toppng.com-coolest-pink-galaxy-background-blue-light-star-particle-light-particle-989x1014.png using Guid(16bdd28215c16774ea31dcd3ee5c0382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2325165cc15ced8e65354d8af2089bd6') in 0.015192 seconds 
+  Import took 0.020189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/UI.png
+  artifactKey: Guid(6f8b92f70e1ff804186eaed5cd165728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/UI.png using Guid(6f8b92f70e1ff804186eaed5cd165728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac9bf76dc1e47a428ae0c47ece6f70b') in 0.030695 seconds 
+  Import took 0.035511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/UI.png
+  artifactKey: Guid(c6feec6f4155aaf4ab55a457bd760976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/UI.png using Guid(c6feec6f4155aaf4ab55a457bd760976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b739c9e807ff962269b9038793206e') in 0.028798 seconds 
+  Import took 0.034647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.746107 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/NicePng_glass-shards-png_927495.png
+  artifactKey: Guid(e905a0d2e24642149879eb552514f139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/NicePng_glass-shards-png_927495.png using Guid(e905a0d2e24642149879eb552514f139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b24a03f6356376fff16957cae26bc3a') in 0.055735 seconds 
+  Import took 0.060649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/pause.png
+  artifactKey: Guid(0187b1867ff71ee498ef61982c3e0fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/pause.png using Guid(0187b1867ff71ee498ef61982c3e0fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e293e7fee38969932d95c472572e58') in 0.024535 seconds 
+  Import took 0.029294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/Ok.png
+  artifactKey: Guid(354bc13836d5e3444979cf1e4814ae06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/Ok.png using Guid(354bc13836d5e3444979cf1e4814ae06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dfab701344b6cf348b619d61724c83') in 0.013322 seconds 
+  Import took 0.017943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/SubGames/TilesBreak/Animation/pink-flower-tree (2).jpg
+  artifactKey: Guid(a38cd8ba188afa64baf9d018f8292b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Animation/pink-flower-tree (2).jpg using Guid(a38cd8ba188afa64baf9d018f8292b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e81c8a3b97c375607b37c74c44bd4b1') in 0.111310 seconds 
+  Import took 0.115495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/PausePanel.png
+  artifactKey: Guid(daf29e3fbd90d3c4081a2bb95635a251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/PausePanel.png using Guid(daf29e3fbd90d3c4081a2bb95635a251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1ae5a1ced50a3427ac43ce3ffdcf61') in 0.074007 seconds 
+  Import took 0.078176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.273271 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/Mock_StartMenu.png
+  artifactKey: Guid(f94fae164ddb0514f9e5969d349b64af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/Mock_StartMenu.png using Guid(f94fae164ddb0514f9e5969d349b64af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdbf21fe005b8da90cbf8367474e26a') in 0.050670 seconds 
+  Import took 0.055259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/Mock_StartMenu.png
+  artifactKey: Guid(7eb891f128bbd8c44bec36bc53779210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/Mock_StartMenu.png using Guid(7eb891f128bbd8c44bec36bc53779210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7da0fbbc236f0ae86872e7acfdc2295') in 0.011177 seconds 
+  Import took 0.015731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/GameCompletePanel/NativeAdsZone.png
+  artifactKey: Guid(d33b6a8b59d77f94d9dcf3311b32fd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/GameCompletePanel/NativeAdsZone.png using Guid(d33b6a8b59d77f94d9dcf3311b32fd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f1667c35fb951e8b2aff57b178424e') in 0.052026 seconds 
+  Import took 0.057689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/new_logo.png
+  artifactKey: Guid(b280572f65c1e434d8eb1ef195f39850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/new_logo.png using Guid(b280572f65c1e434d8eb1ef195f39850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e383f06862d792fa2b4233965451bd01') in 0.029684 seconds 
+  Import took 0.035100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/GameCompletePanel/NativeAdsZone.png
+  artifactKey: Guid(d33b6a8b59d77f94d9dcf3311b32fd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/GameCompletePanel/NativeAdsZone.png using Guid(d33b6a8b59d77f94d9dcf3311b32fd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f1667c35fb951e8b2aff57b178424e') in 0.026215 seconds 
+  Import took 0.031292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/new_logo.png
+  artifactKey: Guid(b280572f65c1e434d8eb1ef195f39850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/new_logo.png using Guid(b280572f65c1e434d8eb1ef195f39850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e383f06862d792fa2b4233965451bd01') in 0.016851 seconds 
+  Import took 0.021667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/newTiles.png
+  artifactKey: Guid(23ae025ec38f11b4eb38806f12b48837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/newTiles.png using Guid(23ae025ec38f11b4eb38806f12b48837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81db08dcc1af612ee22bd50addbd6450') in 0.012805 seconds 
+  Import took 0.017777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/newTiles.png
+  artifactKey: Guid(7a22ed582eeb8bc4b893641ee3522b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/newTiles.png using Guid(7a22ed582eeb8bc4b893641ee3522b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a99f77b0c92a4880552d55bf50498b4') in 0.007692 seconds 
+  Import took 0.012752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.269182 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/Lovepik_com-832691641-Cartoon fruit vegetable gradient icon element.png
+  artifactKey: Guid(8d0f9eed65e693e459fa6b5d9c4189b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/Lovepik_com-832691641-Cartoon fruit vegetable gradient icon element.png using Guid(8d0f9eed65e693e459fa6b5d9c4189b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89df86d62391804e63f96c8180e28d80') in 0.110047 seconds 
+  Import took 0.114655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/SubGames/TilesBreak/2021/MainMenu/Sprites/MainMenuUI_Pack1.png
+  artifactKey: Guid(740ddfc1dd0ab66479e21377412e7d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/MainMenu/Sprites/MainMenuUI_Pack1.png using Guid(740ddfc1dd0ab66479e21377412e7d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715036419cbd2f2815a2ffcc63c2df67') in 0.060503 seconds 
+  Import took 0.064532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/main manu background.png
+  artifactKey: Guid(6edaa58e493d7854bac13a8d63724661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/main manu background.png using Guid(6edaa58e493d7854bac13a8d63724661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f638b7a0eba95ea6c81a29952daafeff') in 0.031516 seconds 
+  Import took 0.035953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/Mock_StartMenu.png
+  artifactKey: Guid(c3d43d9f71aec734baef85700188a85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/Mock_StartMenu.png using Guid(c3d43d9f71aec734baef85700188a85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952921b0dbb763e6e60d7caebd82f2fe') in 0.050258 seconds 
+  Import took 0.054831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179525 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/Logo(1024X1024).png
+  artifactKey: Guid(a5fec402fc05b5e41ae55d5fddf8a0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/Logo(1024X1024).png using Guid(a5fec402fc05b5e41ae55d5fddf8a0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961e7352f4f932631aa0ab194a7eee9d') in 0.019834 seconds 
+  Import took 0.025276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/MainMenu/logo2.PNG
+  artifactKey: Guid(dfa49f007b8fb7b40a00523877828070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/logo2.PNG using Guid(dfa49f007b8fb7b40a00523877828070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf6ff4228e0902cba027b274b93cfd0') in 0.013188 seconds 
+  Import took 0.018338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/MainMenu/Logo(1024X1024).png
+  artifactKey: Guid(ee16e5de73a39f9419b6e42c3859e654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/Logo(1024X1024).png using Guid(ee16e5de73a39f9419b6e42c3859e654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c68340b099074f43fec2f2ff2fae96') in 0.022617 seconds 
+  Import took 0.027154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/MainMenu/logo2_1.png
+  artifactKey: Guid(166797c3647af2241ac51b8eaff38d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/logo2_1.png using Guid(166797c3647af2241ac51b8eaff38d66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e55106aa16f8e1758cbe1662f2d529') in 0.030387 seconds 
+  Import took 0.035104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SubGames/AA/Games/AA/Sprites/logo2.PNG
+  artifactKey: Guid(8f7372b669247b8459aaaa54d359c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Sprites/logo2.PNG using Guid(8f7372b669247b8459aaaa54d359c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddb96d64abdd16da788881890f520bd') in 0.021083 seconds 
+  Import took 0.026412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/SubGames/MergeBall/logo 1.png
+  artifactKey: Guid(cfc0efc79993b274ca3351281f495f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/logo 1.png using Guid(cfc0efc79993b274ca3351281f495f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad05c92314ca41375eaa41270720717') in 0.029327 seconds 
+  Import took 0.033497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/MainMenu/logo 1.png
+  artifactKey: Guid(bfcc822d916057549b73fd900feec2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/logo 1.png using Guid(bfcc822d916057549b73fd900feec2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02be52872c74b646b642d74583ab93a') in 0.015068 seconds 
+  Import took 0.019371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/SubGames/MergeBall/Sprites/line.png
+  artifactKey: Guid(c21e296e08a97c941aceb10c8cdc359f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Sprites/line.png using Guid(c21e296e08a97c941aceb10c8cdc359f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f4c0791d2e8ba280a7a06660ac5c8e') in 0.021803 seconds 
+  Import took 0.026813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/logo.psd
+  artifactKey: Guid(70086a8be443bc541be14d3d04a14777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/logo.psd using Guid(70086a8be443bc541be14d3d04a14777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cac49f2045c501774e07b4b29de1e8f') in 0.038387 seconds 
+  Import took 0.042786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/SubGames/MergeBall/logo 2.png
+  artifactKey: Guid(8cb8ec8960c518c468d86f2895753c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/logo 2.png using Guid(8cb8ec8960c518c468d86f2895753c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4d8c30f800a848198771a4d4d4a213') in 0.025574 seconds 
+  Import took 0.030337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/MainMenu/logo 2.png
+  artifactKey: Guid(c6ea82febadf1c44381861681663ffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/logo 2.png using Guid(c6ea82febadf1c44381861681663ffe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e304482848a8e054c5bf96ed778f8196') in 0.014289 seconds 
+  Import took 0.018890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SubGames/MergeBall/logo.png
+  artifactKey: Guid(587a06a1e63c827479963454366e8aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/logo.png using Guid(587a06a1e63c827479963454366e8aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca8722ca99f3792c06fe94ffdedb61a') in 0.024415 seconds 
+  Import took 0.029875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.162217 seconds.
+  path: Assets/SubGames/TilesBreak/2021/ColorSwitch/Sprites/CircleSliced.psb
+  artifactKey: Guid(0db9ffee4682ff849b94a821bcf857ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/ColorSwitch/Sprites/CircleSliced.psb using Guid(0db9ffee4682ff849b94a821bcf857ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c95ed1bfecb66366f62061e56cca80') in 0.155715 seconds 
+  Import took 0.160686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/GameCompletePanel/levelCompletePack1.png
+  artifactKey: Guid(d678c32fa4dde64499e65af9309e586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/GameCompletePanel/levelCompletePack1.png using Guid(d678c32fa4dde64499e65af9309e586a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d6a907486dbe995499dccae8d4fce6') in 0.075483 seconds 
+  Import took 0.079486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/GameCompletePanel/levelCompletePanel.png
+  artifactKey: Guid(29c2923df5b998a4c88b8533833af3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/GameCompletePanel/levelCompletePanel.png using Guid(29c2923df5b998a4c88b8533833af3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a58b58b826fbc7811282c13dfb2031') in 0.057320 seconds 
+  Import took 0.064777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/GameCompletePanel/LevelCompleteMock.png
+  artifactKey: Guid(0ff231bf4b106dc41a4f80da962a2f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/GameCompletePanel/LevelCompleteMock.png using Guid(0ff231bf4b106dc41a4f80da962a2f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4199ce42fa0fc44050149e218a077d') in 0.073063 seconds 
+  Import took 0.077940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.227368 seconds.
+  path: Assets/SubGames/MergeBall/Sprites/imgbin_sphere-euclidean-ball-png (1).png
+  artifactKey: Guid(548115b45224d9c408ddd4ea84bee0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Sprites/imgbin_sphere-euclidean-ball-png (1).png using Guid(548115b45224d9c408ddd4ea84bee0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd760dfa163f838f8995e5b102225e1f3') in 0.087743 seconds 
+  Import took 0.092844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/IconsPack3.png
+  artifactKey: Guid(52007adb6498c97499d33d57fe455fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/IconsPack3.png using Guid(52007adb6498c97499d33d57fe455fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b47e28a67be3aa61fd10e512740d54') in 0.032213 seconds 
+  Import took 0.038054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/IconsPack3.png
+  artifactKey: Guid(e1314b05b6fe32b4caaa7dd13e9b96a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/IconsPack3.png using Guid(e1314b05b6fe32b4caaa7dd13e9b96a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaa714f4816d48943d2a9fd35dd6eff') in 0.033179 seconds 
+  Import took 0.039595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Particles/klipartz.com.png
+  artifactKey: Guid(c64e5ea4909f12f428dc191d10461eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Particles/klipartz.com.png using Guid(c64e5ea4909f12f428dc191d10461eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e80b321d9bd3df07c53ea19e1e3803') in 0.023370 seconds 
+  Import took 0.028982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.311368 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/IconsPack2.png
+  artifactKey: Guid(b200f5994b78dc54d8d098d7add44070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/IconsPack2.png using Guid(b200f5994b78dc54d8d098d7add44070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c095e931d4a8c43004814da6ddee25') in 0.029105 seconds 
+  Import took 0.034288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/IconsPack2.png
+  artifactKey: Guid(5fdb2a4d2b3a6884daf917c36df570c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/IconsPack2.png using Guid(5fdb2a4d2b3a6884daf917c36df570c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df16f49eae9676b78364af210f3c005c') in 0.029039 seconds 
+  Import took 0.034539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.285126 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/IconsPack1.png
+  artifactKey: Guid(952fc155901234e49874ea7708f9cf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/IconsPack1.png using Guid(952fc155901234e49874ea7708f9cf85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ca65b183a3b68dddee175a561eddb1') in 0.028811 seconds 
+  Import took 0.034035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/IconsPack2.png
+  artifactKey: Guid(1ae1c3e495805be44af3d5d8bd220b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/IconsPack2.png using Guid(1ae1c3e495805be44af3d5d8bd220b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ecc770270afd6a7a15ced3681fe519') in 0.053812 seconds 
+  Import took 0.057931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.479358 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/Icons & Buttons.png
+  artifactKey: Guid(d3db20f3efba0294cb705b25eda8e8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/Icons & Buttons.png using Guid(d3db20f3efba0294cb705b25eda8e8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beea4a211ebcb9fba5d3c454a6371c92') in 0.069316 seconds 
+  Import took 0.074941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/IconsPack1.png
+  artifactKey: Guid(48c750cd511dd3841ab6734b2caa4548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/IconsPack1.png using Guid(48c750cd511dd3841ab6734b2caa4548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18aea58bfab4c396543689b0413c875b') in 0.028775 seconds 
+  Import took 0.033496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.810383 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/gseeekerlogo.png
+  artifactKey: Guid(0cc07f1994b65f142ad72cd7a817c226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/gseeekerlogo.png using Guid(0cc07f1994b65f142ad72cd7a817c226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9c60ec1008b0b2222a79c69cf0aeb5') in 0.021658 seconds 
+  Import took 0.026524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/SubGames/MergeBall/gseeekerlogo.png
+  artifactKey: Guid(551ef2a0175c88a42b033bb4bee9be24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/gseeekerlogo.png using Guid(551ef2a0175c88a42b033bb4bee9be24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841a9b52b7d810c7faa3007413f93ee1') in 0.010447 seconds 
+  Import took 0.014419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/SubGames/TilesBreak/2021/UtilityScene/GameKit/gseeekerlogo.png
+  artifactKey: Guid(3ad0d994b80c74e4480357c6bd211de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/UtilityScene/GameKit/gseeekerlogo.png using Guid(3ad0d994b80c74e4480357c6bd211de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b385c0f06e8650db9b1c5229faf508c') in 0.007935 seconds 
+  Import took 0.012601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SubGames/TilesMatch/gseeekerlogo.png
+  artifactKey: Guid(a5f384d4c6fff4e48964d9f24e7ac037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/gseeekerlogo.png using Guid(a5f384d4c6fff4e48964d9f24e7ac037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d590890286cf7f7b898d6f071182d4e') in 0.007534 seconds 
+  Import took 0.012837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/hintButton.png
+  artifactKey: Guid(050a841322cddf44e87924e892f8d93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/hintButton.png using Guid(050a841322cddf44e87924e892f8d93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af552edfb816a993fb565d6d20c8df15') in 0.016456 seconds 
+  Import took 0.021078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015424 seconds.
+  path: Assets/SubGames/TilesBreak/2021/ColorSwitch/Sprites/gems.psd
+  artifactKey: Guid(f8f5ec73dbb77b448891d994efb2ddb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/ColorSwitch/Sprites/gems.psd using Guid(f8f5ec73dbb77b448891d994efb2ddb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14b50f0a71b5b59a055d115eaeead63') in 0.031925 seconds 
+  Import took 0.037862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/GooglePlayPlugins/com.google.play.common/Runtime/Textures/GooglePlayInstantRetryButton.png
+  artifactKey: Guid(4ed040dcefe674d42904db3a38e46697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GooglePlayPlugins/com.google.play.common/Runtime/Textures/GooglePlayInstantRetryButton.png using Guid(4ed040dcefe674d42904db3a38e46697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9014fbbad8bb152a0166b84e3d578cfc') in 0.023777 seconds 
+  Import took 0.028330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SubGames/TilesBreak/2021/gseeekerlogo.png
+  artifactKey: Guid(df9482578db37fe4691677e42fdd7d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/gseeekerlogo.png using Guid(df9482578db37fe4691677e42fdd7d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38dcd15bdda98e9816a392c27c86a6f') in 0.014587 seconds 
+  Import took 0.020636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Particles/Green-Leaves-PNG-Photos.png
+  artifactKey: Guid(05bca8e5fd2d21a4db2e2dfe255df2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Particles/Green-Leaves-PNG-Photos.png using Guid(05bca8e5fd2d21a4db2e2dfe255df2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29f5d00a042d60d0250378b44e3db27') in 0.020261 seconds 
+  Import took 0.025297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/MainMenu/Graphics.psd
+  artifactKey: Guid(ec7b7421f59d30b459d0318793f132a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainMenu/Graphics.psd using Guid(ec7b7421f59d30b459d0318793f132a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbb4987bfcb0360b711ce25b653fd17') in 0.063273 seconds 
+  Import took 0.067995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/grey-rectangular-button-md.png
+  artifactKey: Guid(6526c19b42a941f4c8661a1a1e7c45c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/grey-rectangular-button-md.png using Guid(6526c19b42a941f4c8661a1a1e7c45c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0292638a76dbb651eda42263fa17254f') in 0.024296 seconds 
+  Import took 0.028729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/SubGames/MergeBall/Sprites/ground.png
+  artifactKey: Guid(07240ca2d8b37234b98242ec0479694d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Sprites/ground.png using Guid(07240ca2d8b37234b98242ec0479694d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba72ffb63b9d40a74797608a97f3f16') in 0.029489 seconds 
+  Import took 0.034374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058372 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/Game Tittle.png
+  artifactKey: Guid(31e5146bfcbd8d842baa676255c8f937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/Game Tittle.png using Guid(31e5146bfcbd8d842baa676255c8f937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c288d25db9aa6f8539adc129198c7b') in 0.043578 seconds 
+  Import took 0.048577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/GameButtonBorderTex.png
+  artifactKey: Guid(a40584e982d0bb8458249fdccef56820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/GameButtonBorderTex.png using Guid(a40584e982d0bb8458249fdccef56820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03849413c10b3193078b6e03e295b9e') in 0.027805 seconds 
+  Import took 0.032395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.321211 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/FAVPNG_bomb_73aTbhCC.png
+  artifactKey: Guid(a1f9f27f2df4b084798757450544b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/FAVPNG_bomb_73aTbhCC.png using Guid(a1f9f27f2df4b084798757450544b735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9d7e5eda4bcbd3faa55a64600257b6') in 0.016820 seconds 
+  Import took 0.021502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Sprites_2021/flower.png
+  artifactKey: Guid(57fdaa017d559f74a8ca220aff4f3d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Sprites_2021/flower.png using Guid(57fdaa017d559f74a8ca220aff4f3d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5922e13306c2389163238c2e9571e3') in 0.041044 seconds 
+  Import took 0.045540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/SubGames/TilesBreak/2021/MainMenu/Sprites/FluffySubLogo.png
+  artifactKey: Guid(4ef4565f83d4b9f4a9720cfd7338c901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/MainMenu/Sprites/FluffySubLogo.png using Guid(4ef4565f83d4b9f4a9720cfd7338c901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42539539f601a78b6fa1513a0b14f927') in 0.021788 seconds 
+  Import took 0.026464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/SubGames/TilesBreak/2021/MainMenu/Sprites/fluffy1.PNG
+  artifactKey: Guid(9e06c422485b1dc4ab48dc4983b88daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/MainMenu/Sprites/fluffy1.PNG using Guid(9e06c422485b1dc4ab48dc4983b88daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959dc3a77beb56dc22995ae5f5236cc8') in 0.024619 seconds 
+  Import took 0.029458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/Game Tittle.png
+  artifactKey: Guid(dbb5d6a913d48c24f8ec1a374d633cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/Game Tittle.png using Guid(dbb5d6a913d48c24f8ec1a374d633cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c60c17dfd01b06ba8c8178fdade759f') in 0.024175 seconds 
+  Import took 0.029633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/FInalScorePanel.psd
+  artifactKey: Guid(3ee203a400bc2624da808e42c157e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/FInalScorePanel.psd using Guid(3ee203a400bc2624da808e42c157e242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac69db3041ff88bbbc2321ce95dc733') in 0.011912 seconds 
+  Import took 0.017014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/SubGames/MergeBall/StartMenu/Sprites_2021/flower.png
+  artifactKey: Guid(6e0125b2676d2b947b2858ec894b1c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/StartMenu/Sprites_2021/flower.png using Guid(6e0125b2676d2b947b2858ec894b1c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed7d7a765d79d942f907cb9322ae990') in 0.021644 seconds 
+  Import took 0.027232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Background/depositphotos_43222385-stock-illustration-beautiful-blue-flower-background.jpg
+  artifactKey: Guid(0d526cb7cf3ebc9478fadc0b30fe0a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Background/depositphotos_43222385-stock-illustration-beautiful-blue-flower-background.jpg using Guid(0d526cb7cf3ebc9478fadc0b30fe0a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa3dfc87eaad7c75198db5dc088901d') in 0.039464 seconds 
+  Import took 0.045061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Background/depositphotos_117986436-stock-illustration-blue-flower-orchid-background.jpg
+  artifactKey: Guid(149739af123bed74dafb2b191c84e535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Background/depositphotos_117986436-stock-illustration-blue-flower-orchid-background.jpg using Guid(149739af123bed74dafb2b191c84e535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd692b7653d0ad9981a0c8286ac79eb71') in 0.045208 seconds 
+  Import took 0.050619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Background/depositphotos_10555333-stock-illustration-abstract-background-with-flower.jpg
+  artifactKey: Guid(15cdb57c5e47e3c4d856d80ac892b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Background/depositphotos_10555333-stock-illustration-abstract-background-with-flower.jpg using Guid(15cdb57c5e47e3c4d856d80ac892b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74869e3775c514cc9964e7d08ecbbe62') in 0.038674 seconds 
+  Import took 0.043352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Background/depositphotos_6100992-stock-illustration-floral-background.jpg
+  artifactKey: Guid(898a505242a86d14a86586f843ba2c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Background/depositphotos_6100992-stock-illustration-floral-background.jpg using Guid(898a505242a86d14a86586f843ba2c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b100ba09533a7cf123d1bb1453ebe8') in 0.053957 seconds 
+  Import took 0.058724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/SubGames/TilesBreak/Sprites/New/Background/depositphotos_117986458-stock-illustration-pink-flower-orchid-background.jpg
+  artifactKey: Guid(89c9cf682c60bb343a30edfcf54f785f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Sprites/New/Background/depositphotos_117986458-stock-illustration-pink-flower-orchid-background.jpg using Guid(89c9cf682c60bb343a30edfcf54f785f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5ab08ac985238ddd1eb687939c51c4') in 0.042823 seconds 
+  Import took 0.051873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/SubGames/TilesMatch/Sprites/UI/crossButton.png
+  artifactKey: Guid(f4fdc88aaf748c846aa76876a8daaae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Sprites/UI/crossButton.png using Guid(f4fdc88aaf748c846aa76876a8daaae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca3b3b581c70df646b18e6a4ccf1ad0') in 0.054105 seconds 
+  Import took 0.058314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 332.668154 seconds.
+  path: Assets/35.png
+  artifactKey: Guid(64fa93d4d6935434a95c865a30c57ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/35.png using Guid(64fa93d4d6935434a95c865a30c57ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3e98c39615a1fff00596979cefdad6') in 0.015805 seconds 
+  Import took 0.022505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001459 seconds.
+  path: Assets/35.png
+  artifactKey: Guid(64fa93d4d6935434a95c865a30c57ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/35.png using Guid(64fa93d4d6935434a95c865a30c57ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3e98c39615a1fff00596979cefdad6') in 0.012435 seconds 
+  Import took 0.017683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 362.963051 seconds.
+  path: Assets/SubGames/AA/Games/AA/Font/Dimbo Regular.ttf
+  artifactKey: Guid(becd534ccb3e0f44f9d233c6e351731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Font/Dimbo Regular.ttf using Guid(becd534ccb3e0f44f9d233c6e351731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f7c5a775d4599e201086c68c89fdfc') in 0.065687 seconds 
+  Import took 0.071856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/SubGames/TilesBreak/Fonts/Fonts/Roboto-Black.ttf
+  artifactKey: Guid(a273999462d751d4f86afdac953772ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Fonts/Fonts/Roboto-Black.ttf using Guid(a273999462d751d4f86afdac953772ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50bb3d55edf8d821ae61b783fe2fa56d') in 0.016186 seconds 
+  Import took 0.021075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/SubGames/MergeBall/Fonts/Fonts/Roboto-Black.ttf
+  artifactKey: Guid(ee3332158affc064aa92d539d24fe187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Fonts/Fonts/Roboto-Black.ttf using Guid(ee3332158affc064aa92d539d24fe187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f21233444774865b5f67bb5286e60da') in 0.009677 seconds 
+  Import took 0.014681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/SubGames/MergeBall/Fonts/Supercell-magic-webfont.ttf
+  artifactKey: Guid(825f045589804594aa2ea4204e3d84da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Fonts/Supercell-magic-webfont.ttf using Guid(825f045589804594aa2ea4204e3d84da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497b69771c0c0e1ba91eba063dd0daa7') in 0.019797 seconds 
+  Import took 0.028011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/SubGames/AA/Games/AA/Font/Dimbo Regular.ttf
+  artifactKey: Guid(becd534ccb3e0f44f9d233c6e351731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/AA/Games/AA/Font/Dimbo Regular.ttf using Guid(becd534ccb3e0f44f9d233c6e351731a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f7c5a775d4599e201086c68c89fdfc') in 0.009655 seconds 
+  Import took 0.014518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/SubGames/TilesBreak/Fonts/TarrgetHalfToneRegular-gzRY.otf
+  artifactKey: Guid(dc9b6b4b4adc8f34a9ed89548e8ec8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Fonts/TarrgetHalfToneRegular-gzRY.otf using Guid(dc9b6b4b4adc8f34a9ed89548e8ec8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de22c2b409dd84460c0d4a8b049b6db') in 0.020408 seconds 
+  Import took 0.025425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/SubGames/MergeBall/Fonts/Fonts/Supercell-magic-webfont.ttf
+  artifactKey: Guid(8487d210039a9ab42b8e328954049cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Fonts/Fonts/Supercell-magic-webfont.ttf using Guid(8487d210039a9ab42b8e328954049cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7d2cafaa1aed6e769242a292047e55') in 0.013830 seconds 
+  Import took 0.019230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ede76f5069c2e9cabe1879d23c3ce10') in 0.017487 seconds 
+  Import took 0.023228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Fonts/PERTIBD.TTF
+  artifactKey: Guid(caf141285d74d504e96eaf6ffeb29b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Fonts/PERTIBD.TTF using Guid(caf141285d74d504e96eaf6ffeb29b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c770daec26bd605ebcd4ce36e82d0f') in 0.019951 seconds 
+  Import took 0.024935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/SubGames/TilesBreak/Fonts/Fonts/Supercell-magic-webfont.ttf
+  artifactKey: Guid(cde25cb300ca50b4db17ea2043877308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Fonts/Fonts/Supercell-magic-webfont.ttf using Guid(cde25cb300ca50b4db17ea2043877308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7a4250e6b039c67b096434e60c2049') in 0.021518 seconds 
+  Import took 0.027178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SubGames/TilesBreak/2021/Fonts/PERTIBD.TTF
+  artifactKey: Guid(caf141285d74d504e96eaf6ffeb29b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/2021/Fonts/PERTIBD.TTF using Guid(caf141285d74d504e96eaf6ffeb29b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c770daec26bd605ebcd4ce36e82d0f') in 0.010301 seconds 
+  Import took 0.014848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/SubGames/TilesBreak/Fonts/Roboto-Black.ttf
+  artifactKey: Guid(25db37c2a5e29744fb1a49dbbc093e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Fonts/Roboto-Black.ttf using Guid(25db37c2a5e29744fb1a49dbbc093e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50e9577c53fdd25850e8dbc402f1b14') in 0.009338 seconds 
+  Import took 0.014044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SubGames/MergeBall/Fonts/TarrgetHalfToneRegular-gzRY.otf
+  artifactKey: Guid(dca24db35c8319b449e39cba26251cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Fonts/TarrgetHalfToneRegular-gzRY.otf using Guid(dca24db35c8319b449e39cba26251cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db394c7eb012bc9ff280fa7a1d69e70') in 0.007487 seconds 
+  Import took 0.011770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SubGames/MergeBall/Fonts/Roboto-Black.ttf
+  artifactKey: Guid(22d8a05303f8e6b49996091b0bbb9038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/MergeBall/Fonts/Roboto-Black.ttf using Guid(22d8a05303f8e6b49996091b0bbb9038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12b3e342e006de7761240a4c433e220') in 0.008964 seconds 
+  Import took 0.013980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/SubGames/TilesMatch/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(de2f778096229ea46affd289ab62fe35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Fonts/Roboto-Bold.ttf using Guid(de2f778096229ea46affd289ab62fe35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1556e554937d113ef6edcb9cacdee12') in 0.018315 seconds 
+  Import took 0.023311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SubGames/TilesBreak/Fonts/Supercell-magic-webfont.ttf
+  artifactKey: Guid(9e6e0349ef7bc2947bde53d5ce30cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesBreak/Fonts/Supercell-magic-webfont.ttf using Guid(9e6e0349ef7bc2947bde53d5ce30cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15cca241c063d24fecb5eaa556e7e1f') in 0.012053 seconds 
+  Import took 0.016323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SubGames/TilesMatch/Fonts/Roboto-Black.ttf
+  artifactKey: Guid(77291314683880e408474db51f1aa27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SubGames/TilesMatch/Fonts/Roboto-Black.ttf using Guid(77291314683880e408474db51f1aa27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db60ecdbeed1b0583332ad6c933a0b2') in 0.009111 seconds 
+  Import took 0.014944 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

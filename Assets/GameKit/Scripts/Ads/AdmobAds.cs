@@ -28,6 +28,7 @@ public class AdmobAds : MonoBehaviour
 
     public Action OnReward;
     public Action OnInterestialAdsComplete;
+    public Action OnRewardFailed;
 
     private void Awake()
     {
@@ -101,6 +102,7 @@ public class AdmobAds : MonoBehaviour
     public void HandleRewardedAdFailedToLoad(object sender, AdFailedToLoadEventArgs args)
     {
         Debug.Log("Video not loaded");
+        OnRewardFailed?.Invoke();
     }
 
     public void HandleRewardedAdOpening(object sender, EventArgs args)
@@ -116,6 +118,7 @@ public class AdmobAds : MonoBehaviour
     public void HandleRewardedAdClosed(object sender, EventArgs args)
     {
         Debug.Log("Video Loading failed");
+        //OnRewardFailed?.Invoke();
     }
 
     public void HandleUserEarnedReward(object sender, Reward args)

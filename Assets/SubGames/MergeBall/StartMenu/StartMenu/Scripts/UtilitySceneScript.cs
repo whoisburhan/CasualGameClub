@@ -20,7 +20,7 @@ public class UtilitySceneScript : MonoBehaviour
 
     void Start()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("MainMenu_new");
     }
 
     public void LoadScene(int _sceneIndex)

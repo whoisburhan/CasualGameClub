@@ -16,9 +16,9 @@ MonoBehaviour:
   clientTokens:
   - 
   appIds:
-  - 
+  - 243791327778491
   appLabels:
-  - App Name
+  - CasualGameClub
   cookie: 1
   logging: 1
   status: 1

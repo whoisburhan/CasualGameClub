@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "ae8f03d",
     "m_SelectedPackage": {
-        "deviceId": "ae8f03d",
-        "name": "com.GameSeekersStudio.CasualGameClub",
-        "processId": 23437,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,7 +12,7 @@
             "deviceId": "ae8f03d",
             "name": "com.oppo.launcher",
             "processId": 3251,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "ae8f03d",
@@ -24,6 +24,12 @@
             "deviceId": "ae8f03d",
             "name": "com.GameSeekersStudio.CasualGameClub",
             "processId": 23437,
+            "exited": true
+        },
+        {
+            "deviceId": "ae8f03d",
+            "name": "com.facebook.katana",
+            "processId": 5694,
             "exited": false
         }
     ],

@@ -119,7 +119,7 @@ namespace GS.AA
                 adsTimer = AdsTimeInterval;
             }
 
-            if (currentLevel > 3)
+            if (currentLevel > 2)
             {
                 AdmobAds.instance.reqBannerAd();
             }

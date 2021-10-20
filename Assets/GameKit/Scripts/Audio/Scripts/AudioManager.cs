@@ -87,7 +87,7 @@ namespace GS.GameKit
 
     public enum SoundName
     {
-        CLICK = 0, GAME_OVER, LEVEL_COMPLETE, GAME_OVER_2, CLICK_2, CLICK_3, CLICK_4, CLICK_5, GAME_OVER_3, SUCCESS
+        CLICK = 0, GAME_OVER, LEVEL_COMPLETE, GAME_OVER_2, CLICK_2, CLICK_3, CLICK_4, CLICK_5, GAME_OVER_3, SUCCESS, GAME_OVER_4, COIN
     }
 
     public enum MusicName
