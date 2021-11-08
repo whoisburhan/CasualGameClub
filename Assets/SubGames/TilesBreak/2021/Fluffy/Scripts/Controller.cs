@@ -53,8 +53,8 @@ namespace GS.Fluffy
             //AdsManager_Unity.OnRewardCancel += RewardFailed;
             //AdsManager_Unity.OnRewardError += RewardError;
 
-            AdmobAds.instance.OnReward += RewardSuccess;
-            AdmobAds.instance.OnRewardFailed += RewardFailed;
+            //AdmobAds.instance.OnReward += RewardSuccess;
+            //AdmobAds.instance.OnRewardFailed += RewardFailed;
         }
 
         private void OnDisable()
@@ -63,8 +63,8 @@ namespace GS.Fluffy
             //AdsManager_Unity.OnRewardCancel -= RewardFailed;
             //AdsManager_Unity.OnRewardError -= RewardError;
 
-            AdmobAds.instance.OnReward -= RewardSuccess;
-            AdmobAds.instance.OnRewardFailed -= RewardFailed;
+            //AdmobAds.instance.OnReward -= RewardSuccess;
+            //AdmobAds.instance.OnRewardFailed -= RewardFailed;
         }
 
         private void Start()
@@ -74,12 +74,12 @@ namespace GS.Fluffy
             //    AudioManager.Instance.ResetAudio();
             //}
 
-            if (AdmobAds.instance != null)
-            {
-                AdmobAds.instance.reqBannerAd(GoogleMobileAds.Api.AdPosition.Bottom);
-                // AdmobAds.instance.requestInterstital();
-                AdmobAds.instance.loadRewardVideo();
-            }
+            //if (AdmobAds.instance != null)
+            //{
+            //    AdmobAds.instance.reqBannerAd(GoogleMobileAds.Api.AdPosition.Bottom);
+            //    // AdmobAds.instance.requestInterstital();
+            //    AdmobAds.instance.loadRewardVideo();
+            //}
 
             Time.timeScale = 1f;
             rb2d = GetComponent<Rigidbody2D>();
@@ -136,7 +136,7 @@ namespace GS.Fluffy
         {
             if (isGameOver && flag)
             {
-                if (AdmobAds.instance.IsRewarededVideoLoaded() && allowRwdAdsShow)
+                if (false/*AdmobAds.instance.IsRewarededVideoLoaded()*/ && allowRwdAdsShow)
                 {
                     if (!showRewardAds.activeSelf)
                     {
@@ -280,7 +280,7 @@ namespace GS.Fluffy
         public void ShowRwdAds()
         {
             //AdsManager_Unity.Instance.ShowRewardedVideo();
-            AdmobAds.instance.showVideoAd();
+           // AdmobAds.instance.showVideoAd();
         }
 
         public void NewGame()

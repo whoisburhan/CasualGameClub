@@ -179,30 +179,30 @@ namespace GS.TilesMatch
 
         public void NextLevel()
         {
-            if (adsTimer <= 0)
-            {
-                if (AdmobAds.instance != null)
-                {
-                    if (AdmobAds.instance.IsInterestitialLoaded())
-                    {
-                        AdmobAds.instance.OnInterestialAdsComplete += NextLevelTransictionFunc;
-                        adsTimer = AdsTimeInterval;
-                        AdmobAds.instance.ShowInterstitialAd();
+            //if (adsTimer <= 0)
+            //{
+            //    if (AdmobAds.instance != null)
+            //    {
+            //        if (AdmobAds.instance.IsInterestitialLoaded())
+            //        {
+            //            AdmobAds.instance.OnInterestialAdsComplete += NextLevelTransictionFunc;
+            //            adsTimer = AdsTimeInterval;
+            //            AdmobAds.instance.ShowInterstitialAd();
 
-                    }
-                    else
-                    {
-                        AdmobAds.instance.requestInterstital();
-                        NextLevelTransictionFunc();
-                    }
-                }
-                else
-                {
-                    AdmobAds.instance.requestInterstital();
-                    NextLevelTransictionFunc();
-                }
-            }
-            else
+            //        }
+            //        else
+            //        {
+            //            AdmobAds.instance.requestInterstital();
+            //            NextLevelTransictionFunc();
+            //        }
+            //    }
+            //    else
+            //    {
+            //        AdmobAds.instance.requestInterstital();
+            //        NextLevelTransictionFunc();
+            //    }
+            //}
+            //else
             {
                 NextLevelTransictionFunc();
             }

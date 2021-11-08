@@ -44,7 +44,7 @@ namespace GS.AA
             else
             {
 #if UNITY_ANDROID || UNITY_IOS
-                AdmobAds.instance.reqBannerAd();
+                //AdmobAds.instance.reqBannerAd();
 #endif
             }
         }

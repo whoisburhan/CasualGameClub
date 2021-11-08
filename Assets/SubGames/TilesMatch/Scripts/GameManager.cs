@@ -90,11 +90,11 @@ namespace GS.TilesMatch
                Debug.Log("Working 2");
            }));*/
 
-            if (AdmobAds.instance != null)
-            {
-                AdmobAds.instance.reqBannerAd(GoogleMobileAds.Api.AdPosition.Bottom);
-                AdmobAds.instance.requestInterstital();
-            }
+            //if (AdmobAds.instance != null)
+            //{
+            //    AdmobAds.instance.reqBannerAd(GoogleMobileAds.Api.AdPosition.Bottom);
+            //    AdmobAds.instance.requestInterstital();
+            //}
 
             Refresh();
 

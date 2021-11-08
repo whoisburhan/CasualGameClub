@@ -70,7 +70,7 @@ namespace GS.AA
             if (GameManager.Instance != null && GameManager.Instance.currentLevel > 5)
             {
 #if UNITY_ANDROID || UNITY_IOS
-                AdmobAds.instance.hideBanner();
+                //AdmobAds.instance.hideBanner();
 #endif
             }
         }
@@ -82,7 +82,7 @@ namespace GS.AA
             if (GameManager.Instance != null && GameManager.Instance.currentLevel > 5)
             {
 #if UNITY_ANDROID || UNITY_IOS
-                AdmobAds.instance.hideBanner();
+               // AdmobAds.instance.hideBanner();
 #endif
             }
         }
@@ -120,10 +120,10 @@ namespace GS.AA
             {
                 OnForceToDestroy?.Invoke();
 #if UNITY_ANDROID || UNITY_IOS
-               if (AdmobAds.instance.IsRewarededVideoLoaded())
+               if (false /*AdmobAds.instance.IsRewarededVideoLoaded()*/)
                 {
                     // Time.timeScale = 0f;
-                    AdmobAds.instance.showVideoAd();
+                   // AdmobAds.instance.showVideoAd();
                    // UnityAdsManager.Instance.ShowAds("rewardedVideo");
                 }
                 else

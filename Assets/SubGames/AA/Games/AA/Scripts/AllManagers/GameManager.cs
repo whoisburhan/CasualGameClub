@@ -68,12 +68,12 @@ namespace GS.AA
 
         private void OnEnable()
         {
-            AdmobAds.instance.OnReward += SkipLevel;
+            //AdmobAds.instance.OnReward += SkipLevel;
         }
 
         private void OnDisable()
         {
-            AdmobAds.instance.OnReward -= SkipLevel;
+            //AdmobAds.instance.OnReward -= SkipLevel;
         }
 
         private void Start()
@@ -93,9 +93,9 @@ namespace GS.AA
 #if UNITY_ANDROID || UNITY_IOS
             if (currentLevel > 5)
             {
-                AdmobAds.instance.requestInterstital();
+               // AdmobAds.instance.requestInterstital();
             }
-            AdmobAds.instance.loadRewardVideo();
+            //AdmobAds.instance.loadRewardVideo();
 #endif
 
             LoadLevel();
@@ -115,13 +115,13 @@ namespace GS.AA
 #if UNITY_ANDROID || UNITY_IOS
             if (adsTimer < 0 && currentLevel > 5)
             {
-                AdmobAds.instance.ShowInterstitialAd();
+               // AdmobAds.instance.ShowInterstitialAd();
                 adsTimer = AdsTimeInterval;
             }
 
             if (currentLevel > 2)
             {
-                AdmobAds.instance.reqBannerAd();
+                //AdmobAds.instance.reqBannerAd();
             }
 #endif
 
@@ -351,7 +351,7 @@ namespace GS.AA
 #if UNITY_ANDROID || UNITY_IOS
             if (currentLevel > 5)
             {
-                AdmobAds.instance.hideBanner();
+               // AdmobAds.instance.hideBanner();
             }
 #endif
             sarah.GetComponent<Sarah>().SetDialogue(_dialogue);

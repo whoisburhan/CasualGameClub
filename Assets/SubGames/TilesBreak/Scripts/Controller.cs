@@ -48,8 +48,8 @@ namespace GS.TilesBreak
             //AdsManager_Unity.OnRewardCancel += RewardFailed;
             //AdsManager_Unity.OnRewardError += RewardError;
 
-            AdmobAds.instance.OnReward += RewardSuccess;
-            AdmobAds.instance.OnRewardFailed += RewardFailed;
+            //AdmobAds.instance.OnReward += RewardSuccess;
+            //AdmobAds.instance.OnRewardFailed += RewardFailed;
         }
 
         private void OnDisable()
@@ -58,8 +58,8 @@ namespace GS.TilesBreak
             //AdsManager_Unity.OnRewardCancel -= RewardFailed;
             //AdsManager_Unity.OnRewardError -= RewardError;
 
-            AdmobAds.instance.OnReward -= RewardSuccess;
-            AdmobAds.instance.OnRewardFailed -= RewardFailed;
+            //AdmobAds.instance.OnReward -= RewardSuccess;
+            //AdmobAds.instance.OnRewardFailed -= RewardFailed;
         }
 
         private void Start()
@@ -67,12 +67,12 @@ namespace GS.TilesBreak
             Time.timeScale = 1f;
             //Advertisement.Initialize(gameID, testMode);
 
-            if (AdmobAds.instance != null)
-            {
-                AdmobAds.instance.reqBannerAd(GoogleMobileAds.Api.AdPosition.Bottom);
-               // AdmobAds.instance.requestInterstital();
-                AdmobAds.instance.loadRewardVideo();
-            }
+            //if (AdmobAds.instance != null)
+            //{
+            //    AdmobAds.instance.reqBannerAd(GoogleMobileAds.Api.AdPosition.Bottom);
+            //   // AdmobAds.instance.requestInterstital();
+            //    AdmobAds.instance.loadRewardVideo();
+            //}
 
                 isPlay = true;
 
@@ -96,7 +96,7 @@ namespace GS.TilesBreak
 
             if (isGameOver && flag)
             {
-                if (AdmobAds.instance.IsRewarededVideoLoaded() && allowRwdAdsShow)
+                if (false /*AdmobAds.instance.IsRewarededVideoLoaded()*/ && allowRwdAdsShow)
                 {
                     if (!showRewardAds.activeSelf)
                     {
@@ -339,7 +339,7 @@ namespace GS.TilesBreak
         {
             // ShowRewardedRegularAd(OnRewardedAdClosed);
             //AdsManager_Unity.Instance.ShowRewardedVideo();
-            AdmobAds.instance.showVideoAd();
+          //  AdmobAds.instance.showVideoAd();
         }
 
        

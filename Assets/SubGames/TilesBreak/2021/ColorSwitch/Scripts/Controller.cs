@@ -56,8 +56,8 @@ namespace GS.ColorSwitch
             //AdsManager_Unity.OnRewardCancel += RewardFailed;
             //AdsManager_Unity.OnRewardError += RewardError;
 
-            AdmobAds.instance.OnReward += RewardSuccess;
-            AdmobAds.instance.OnRewardFailed += RewardFailed;
+            //AdmobAds.instance.OnReward += RewardSuccess;
+            //AdmobAds.instance.OnRewardFailed += RewardFailed;
         }
 
         private void OnDisable()
@@ -66,8 +66,8 @@ namespace GS.ColorSwitch
             //AdsManager_Unity.OnRewardCancel -= RewardFailed;
             //AdsManager_Unity.OnRewardError -= RewardError;
 
-            AdmobAds.instance.OnReward -= RewardSuccess;
-            AdmobAds.instance.OnRewardFailed -= RewardFailed;
+            //AdmobAds.instance.OnReward -= RewardSuccess;
+            //AdmobAds.instance.OnRewardFailed -= RewardFailed;
         }
 
         private void Start()
@@ -129,7 +129,7 @@ namespace GS.ColorSwitch
         {
             if (isGameOver && flag)
             {
-                if (AdmobAds.instance.IsRewarededVideoLoaded() && allowRwdAdsShow)
+                if (false /*AdmobAds.instance.IsRewarededVideoLoaded()*/ && allowRwdAdsShow)
                 {
                     if (!showRewardAds.activeSelf)
                     {
@@ -304,7 +304,7 @@ namespace GS.ColorSwitch
         public void ShowRwdAds()
         {
             //AdsManager_Unity.Instance.ShowRewardedVideo();
-            AdmobAds.instance.showVideoAd();
+           // AdmobAds.instance.showVideoAd();
         }
 
         public void NewGame()
