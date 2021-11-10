@@ -11,6 +11,7 @@ public class LevelLoader : MonoBehaviour
     [SerializeField] private Button m_TilesMatch;
     [SerializeField] private Button m_MergeBall;
     [SerializeField] private Button m_TilesBreak;
+    [SerializeField] private Button m_FreeSwipe;
 
     private void Start()
     {
@@ -18,5 +19,6 @@ public class LevelLoader : MonoBehaviour
         m_TilesMatch.onClick.AddListener(() => { SceneManager.LoadScene("TilesMatch"); });
         m_MergeBall.onClick.AddListener(() => { SceneManager.LoadScene("MergeBall"); });
         m_TilesBreak.onClick.AddListener(() => { SceneManager.LoadScene("TilesBreakNew"); });
+        m_FreeSwipe.onClick.AddListener(() => { SceneManager.LoadScene("FreeSwipe"); });
     }
 }
