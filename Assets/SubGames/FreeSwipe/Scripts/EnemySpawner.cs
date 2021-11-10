@@ -35,6 +35,7 @@ namespace GS.FreeSweeper
 
                     GameObject _go = enemyObjects[enemyIndex];
                     _go.transform.position = spawnPositions[_index].position;
+                    _go.transform.rotation = spawnPositions[_index].rotation;
                     _go.SetActive(true);
 
                     _go.transform.DOMove((_index % 2 == 0 ? spawnPositions[_index + 1].position : spawnPositions[_index - 1].position), 8f).OnComplete(() =>
