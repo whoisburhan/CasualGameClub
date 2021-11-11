@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Advertisements;
+using GS.GameKit;
+using System.Collections;
 
 namespace GS.AA
 {
@@ -42,6 +44,7 @@ namespace GS.AA
 
         [Header("Effects")]
         public GameObject rippleEffect;
+        [SerializeField] public ParticleSystem rockParticlesEffect;
 
         [Header("Ball Prefab")]
         public GameObject BallPrefab;
@@ -78,6 +81,7 @@ namespace GS.AA
 
         private void Start()
         {
+            StartCoroutine(CameraShake());
 
             Debug.Log("123");
             adsTimer = AdsTimeInterval;
@@ -367,5 +371,14 @@ namespace GS.AA
             isLevelCompletedOrGameOver = false;
         }
 
+        IEnumerator CameraShake()
+        {
+            CinemachineShake.Instance.ShakeCamera(1f, 1.5f);
+            if (rockParticlesEffect.isPlaying) rockParticlesEffect.Stop();
+            rockParticlesEffect.Play();
+            GS.GameKit.AudioManager.Instance.AudioChangeFunc(SoundName.SHAKE, 1);
+            yield return new WaitForSeconds(UnityEngine.Random.Range(7f, 10f));
+            StartCoroutine(CameraShake());
+        }
     }
 }
